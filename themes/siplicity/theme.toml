@@ -1,0 +1,10 @@
+name = 'siplicity'
+description = 'Website for siplicity'
+
+# Taxonomy terms
+tags = ['portfolio']
+
+# If the theme has a single author
+[author]
+  name = 'Richard Lehane'
+  homepage = 'richardlehane.me'

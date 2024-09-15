@@ -1,0 +1,19 @@
+{{ define "main" }}
+{{ $image := resources.Get "images/screenshot.png" }}
+<div class="grid">
+  <div>{{ .Content }}</div>
+  <div>
+    <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
+  </div>
+</div>
+<hr>
+<div>
+  <h2>Devlog</h2>
+  {{ with .Site.GetPage "devlog" }}
+  {{ range .Pages }}
+  <h3>{{ .LinkTitle }}</h3>
+  {{ .Content }}
+  {{ end }}
+  {{ end }}
+</div>
+{{ end }}

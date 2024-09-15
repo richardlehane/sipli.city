@@ -1,0 +1,9 @@
+baseURL = 'https://sipli.city/'
+languageCode = 'en-us'
+title = 'Siplicity'
+theme = 'richardlehane'
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.116.0"

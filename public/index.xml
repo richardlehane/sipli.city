@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About on Richard Lehane</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in About on Richard Lehane</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 07 Aug 2024 12:00:00 +1000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Digital asset survey</title>
+      <link>http://localhost:1313/projects/digital-assets-survey/</link>
+      <pubDate>Wed, 07 Aug 2024 12:00:00 +1000</pubDate>
+      <guid>http://localhost:1313/projects/digital-assets-survey/</guid>
+      <description>Digital asset survey for a NSW government agency. Analysed the outputs of a series of outsourced, audio-visual digitisation projects to make recommendations for the control and digital preservation of the assets. The main challenge was to integrate a diverse set of metadata (file system metadata, manifests provided to/ received from the digitisation supplier, catalogue exports) to build an consolidated, inter-linked, and authoritative view of the digitial assets.</description>
+    </item>
+    <item>
+      <title>Digitisation</title>
+      <link>http://localhost:1313/experience/digitisation/</link>
+      <pubDate>Wed, 07 Aug 2024 12:00:00 +1000</pubDate>
+      <guid>http://localhost:1313/experience/digitisation/</guid>
+      <description>During my career, I have worked on all sides of digitisation projects. I&amp;rsquo;ve advised government agencies on requirements and best practices for the digitisation of official records. As manager of an archives team, I have supervised in-house digitisation projects, setting specifications for the digitisation of paper and photographic material and defining metadata capture and quality assurance processes. Most recently, I’ve worked on a project to wrangle the outputs of outsourced AV digitisation projects, devising strategies for the preservation and control of digital assets.</description>
+    </item>
+    <item>
+      <title>WASM build of Siegfried</title>
+      <link>http://localhost:1313/projects/wasm-siegfried/</link>
+      <pubDate>Wed, 07 Aug 2024 12:00:00 +1000</pubDate>
+      <guid>http://localhost:1313/projects/wasm-siegfried/</guid>
+      <description>Archives NZ sponsored the development of a WASM build for Siegfried, the file format identification tool that I created. This means that Siegfried can be run in a web browser, client-side, and without the need for end-users to install the tool. For more details, see this LinkedIn post.</description>
+    </item>
+    <item>
+      <title>File format analysis</title>
+      <link>http://localhost:1313/experience/file-formats/</link>
+      <pubDate>Tue, 06 Aug 2024 12:00:00 +1000</pubDate>
+      <guid>http://localhost:1313/experience/file-formats/</guid>
+      <description>I am an expert in identifying and working with legacy file formats. I wrote Siegfried, a file format identification tool, based on the National Archives&amp;rsquo; PRONOM registry, that is bundled with leading digital preservation systems such as Archivematica&#xA;I can analyze, reverse engineer, and develop custom migration strategies for file formats. In past roles I&amp;rsquo;ve tackled obscure formats such as Wang Archive Diskette, Status database, and TRIM VMBX.</description>
+    </item>
+    <item>
+      <title>Artificial Intelligence Governance Toolkit</title>
+      <link>http://localhost:1313/projects/ai-governance-toolkit/</link>
+      <pubDate>Mon, 05 Aug 2024 12:00:00 +1000</pubDate>
+      <guid>http://localhost:1313/projects/ai-governance-toolkit/</guid>
+      <description>In collaboration with Recordkeeping Innovation (RKI), I developed an Artificial Intelligence Governance Toolkit. This comprises an AI Governance Maturity Model, risk rating tool, AI systems register, information managers&amp;rsquo; checklist and a model corporate AI policy. More information about RKI&amp;rsquo;s AI governance services is available here.</description>
+    </item>
+    <item>
+      <title>Automating disposal</title>
+      <link>http://localhost:1313/experience/automating-disposal/</link>
+      <pubDate>Mon, 05 Aug 2024 12:00:00 +1000</pubDate>
+      <guid>http://localhost:1313/experience/automating-disposal/</guid>
+      <description>I&amp;rsquo;ve done pioneering work on the automatic application of retention and disposal rules. I wrote State Records NSW&amp;rsquo;s XML schema for retention and disposal authorities and created an accompanying desktop drafting application, Authority Editor.&#xA;More recently, as manager of the Digital Archives team at State Records NSW, I supervised pilot projects that used machine learning to automatically apply retention rules to a corpus of official records.</description>
+    </item>
+  </channel>
+</rss>
