@@ -1,7 +1,7 @@
 baseURL = 'https://sipli.city/'
 languageCode = 'en-us'
 title = 'Siplicity'
-theme = 'richardlehane'
+theme = 'siplicity'
 
 [module]
   [module.hugoVersion]

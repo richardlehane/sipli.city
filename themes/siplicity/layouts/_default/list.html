@@ -1,0 +1,7 @@
+{{ define "main" }}
+{{ with .Site.GetPage "devlog" }}
+{{ range .Pages }}
+{{ partial "article.html" . }}
+{{ end }}
+{{ end }}
+{{ end }}

@@ -4,28 +4,24 @@ date = 2024-08-07T12:00:00+10:00
 draft = false
 +++
 
-> Seventeen years professional experience in records, information and archives. Specialist in digital
-> archives and electronic recordkeeping.
+> Profile, analyze, select, structure, describe, and package digital files for ingest into a digital repository.
 
-Based in Sydney, Australia.
+### Features
 
-### Available to help with
+- Format identification
+- Duplicate detection
+- Checksum calculation and verification
+- Metadata import
+- Pattern based file renaming
+- Pattern based filtering and file selection
+- Output standards compliant metadata and packages
+- Audit logs
+- Client-server architecture for local and cloud deployment
 
-- Digital preservation workflows
-- Digital preservation systems
-- Archives management systems
-- System implementation and integration
-- Business case drafting
-- Recordkeeping policies, procedures, instruments
-- Digital recordkeeping
-- Digital transformation
-- Digitisation projects
-- Information governance
 
-### Contact
+### Get in touch
 
-[richard.lehane@gmail.com](mailto:richard.lehane@gmail.com)
+Siplicity is in active development. I'm planning on a launch date in early 2025.
 
-### Australian Business Number
+If you'd like to be involved in beta testing, or have any questions, please drop me a line at [richard.lehane@gmail.com](mailto:richard.lehane@gmail.com)
 
-[ABN 82 401 614 058](https://abr.business.gov.au/ABN/View?id=82401614058)
