@@ -18,6 +18,7 @@ draft = false
 - Audit logs
 - Client-server architecture for local and cloud deployment
 
+![Screenshot of siplicity application](screenshot.png)
 
 ### Get in touch
 
