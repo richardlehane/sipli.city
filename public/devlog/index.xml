@@ -6,8 +6,15 @@
     <description>Recent content in Devlogs on Siplicity</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Sep 2024 12:00:00 +1000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Oct 2024 10:00:00 +1000</lastBuildDate>
     <atom:link href="https://sipli.city/devlog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bake off - second attempt in the kitchen!</title>
+      <link>https://sipli.city/devlog/bake-off/</link>
+      <pubDate>Thu, 03 Oct 2024 10:00:00 +1000</pubDate>
+      <guid>https://sipli.city/devlog/bake-off/</guid>
+      <description>Two weeks ago I gave a first demonstration of siplicity for the iPRES conference (the &amp;ldquo;bake off&amp;rdquo; stream). Many thanks to Micky, Dries, and the rest of the conference team for including me in the program.&#xA;My presentation was unfortunately a little undercooked. Many of the ingredients were there, but without enough time in the coding oven, and so I focused the presentation on siplicity&amp;rsquo;s backend application (the GRPC server), which didn&amp;rsquo;t make for an appetizing meal.</description>
+    </item>
     <item>
       <title>Tech stack overview</title>
       <link>https://sipli.city/devlog/tech-stack/</link>

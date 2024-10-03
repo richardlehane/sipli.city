@@ -1,0 +1,7 @@
+{{ with .Page.Resources.GetMatch "*.mp4" }}
+<video preload="auto" controls>
+    <source src="{{ .RelPermalink }}" type="video/mp4">
+    There should have been a video here but your browser does not seem
+    to support it.
+</video>
+{{ end }}
