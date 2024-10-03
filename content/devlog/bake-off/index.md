@@ -18,7 +18,7 @@ The video demonstrates:
 
 - adding files and folders to an input graph
 - manipulating the input graph (select, delete and move nodes to the output graph)
-- running processes like file format identification and checksum caluculation to enrich record metadata
+- running processes like file format identification and checksum calculation to enrich record metadata
 - viewing record details and metadata
 - manipulating the output graph and defining an output destination
 - formatting the output graph as a bagit package
