@@ -2,20 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://sipli.city/devlog/bake-off/</loc>
+    <loc>http://localhost:59639/policies/</loc>
+    <lastmod>2024-10-04T12:00:00+10:00</lastmod>
+  </url><url>
+    <loc>http://localhost:59639/purchase/</loc>
+    <lastmod>2024-10-04T12:00:00+10:00</lastmod>
+  </url><url>
+    <loc>http://localhost:59639/screenshots/</loc>
+    <lastmod>2024-10-04T12:00:00+10:00</lastmod>
+  </url><url>
+    <loc>http://localhost:59639/devlog/bake-off/</loc>
     <lastmod>2024-10-03T10:00:00+10:00</lastmod>
   </url><url>
-    <loc>https://sipli.city/devlog/</loc>
+    <loc>http://localhost:59639/devlog/</loc>
     <lastmod>2024-10-03T10:00:00+10:00</lastmod>
   </url><url>
-    <loc>https://sipli.city/devlog/tech-stack/</loc>
+    <loc>http://localhost:59639/devlog/tech-stack/</loc>
     <lastmod>2024-09-15T12:00:00+10:00</lastmod>
   </url><url>
-    <loc>https://sipli.city/</loc>
+    <loc>http://localhost:59639/</loc>
     <lastmod>2024-08-07T12:00:00+10:00</lastmod>
   </url><url>
-    <loc>https://sipli.city/categories/</loc>
+    <loc>http://localhost:59639/categories/</loc>
   </url><url>
-    <loc>https://sipli.city/tags/</loc>
+    <loc>http://localhost:59639/tags/</loc>
   </url>
 </urlset>

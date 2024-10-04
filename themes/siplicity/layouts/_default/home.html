@@ -1,15 +1,3 @@
 {{ define "main" }}
-{{ $image := resources.Get "images/screenshot.png" }}
-<h2>A digital preservation triage tool</h2>
-<div>{{ .Content }}</div>
-<div>
-  {{ with .Site.GetPage "devlog" }}
-  <h2><a href="{{.Permalink}}">Devlog</a></h2>
-  {{ range .Pages }}
-  <p>
-    <a href="{{.Permalink}}">{{ .LinkTitle }} - {{ dateFormat "Monday, 2 January, 2006" .Date }}</a>
-  </p>
-  {{ end }}
-  {{ end }}
-</div>
+{{ .Content }}
 {{ end }}

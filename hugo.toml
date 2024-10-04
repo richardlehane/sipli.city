@@ -3,6 +3,12 @@ languageCode = 'en-us'
 title = 'Siplicity'
 theme = 'siplicity'
 
+[markup]
+  [markup.tableOfContents]
+    endLevel = 2
+    ordered = false
+    startLevel = 2
+
 [module]
   [module.hugoVersion]
     extended = false

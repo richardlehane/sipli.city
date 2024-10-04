@@ -2,24 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About on Siplicity</title>
-    <link>https://sipli.city/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in About on Siplicity</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Oct 2024 10:00:00 +1000</lastBuildDate>
-    <atom:link href="https://sipli.city/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Oct 2024 12:00:00 +1000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Policies</title>
+      <link>http://localhost:1313/policies/</link>
+      <pubDate>Fri, 04 Oct 2024 12:00:00 +1000</pubDate>
+      <guid>http://localhost:1313/policies/</guid>
+      <description>Policies Siplicity is developed by Richard Lehane. My Australian Business Number is ABN 82 401 614 058.&#xA;If you have any questions about the following policies, please contact me at richard.lehane@gmail.com.&#xA;Privacy Policy Terms and Conditions Refunds Privacy Policy 4 October, 2024&#xA;This Privacy Policy identifies the personal information collected about you and why, describes what is done with that personal information, how it is used and disclosed, and your rights to access and request corrections or deletion of information.</description>
+    </item>
+    <item>
+      <title>Purchase</title>
+      <link>http://localhost:1313/purchase/</link>
+      <pubDate>Fri, 04 Oct 2024 12:00:00 +1000</pubDate>
+      <guid>http://localhost:1313/purchase/</guid>
+      <description>Buy Siplicity Siplicity is under active development and isn&amp;rsquo;t available for purchase yet.&#xA;The plan is to release an early access version in late 2024, with a version one release following in early 2025.&#xA;Licenses Siplicity will be licensed with the Fair Core License. This means that users will have access to Siplicity&amp;rsquo;s source code and can modify the application and distribute those modifications for use by other licensed users. It also means that Siplicity versions will automatically transition to Open Source (Apache 2.</description>
+    </item>
+    <item>
+      <title>Screenshots</title>
+      <link>http://localhost:1313/screenshots/</link>
+      <pubDate>Fri, 04 Oct 2024 12:00:00 +1000</pubDate>
+      <guid>http://localhost:1313/screenshots/</guid>
+      <description>Screenshots Workspace Pane The workspace pane is where you select, structure, describe digital content and export to your preferred targets.&#xA;Details view Within the workspace pane you can select and view the details for particular records. Siplicity&amp;rsquo;s metadata model allows for the capture of arbitrarily deeply nested metadata structures. This means, for example, that you can capture the time a checksum was performed, along with the algorithm. For siegfried results, you see the full information reported for identifications, as well as metadata about the siegfried process itself (siegfried and PRONOM version details).</description>
+    </item>
     <item>
       <title>Bake off - second attempt in the kitchen!</title>
-      <link>https://sipli.city/devlog/bake-off/</link>
+      <link>http://localhost:1313/devlog/bake-off/</link>
       <pubDate>Thu, 03 Oct 2024 10:00:00 +1000</pubDate>
-      <guid>https://sipli.city/devlog/bake-off/</guid>
-      <description>Two weeks ago I gave a first demonstration of siplicity for the iPRES conference (the &amp;ldquo;bake off&amp;rdquo; stream). Many thanks to Micky, Dries, and the rest of the conference team for including me in the program.&#xA;My presentation was unfortunately a little undercooked. Many of the ingredients were there, but without enough time in the coding oven, and so I focused the presentation on siplicity&amp;rsquo;s backend application (the GRPC server), which didn&amp;rsquo;t make for an appetizing meal.</description>
+      <guid>http://localhost:1313/devlog/bake-off/</guid>
+      <description>Two weeks ago I gave a first demonstration of Siplicity for the iPRES conference (the &amp;ldquo;bake off&amp;rdquo; stream). Many thanks to Micky, Dries, and the rest of the conference team for including me in the program.&#xA;My presentation was unfortunately a little undercooked. Many of the ingredients were there, but without enough time in the coding oven, and so I focused the presentation on Siplicity&amp;rsquo;s backend application (the GRPC server), which didn&amp;rsquo;t make for an appetizing meal.</description>
     </item>
     <item>
       <title>Tech stack overview</title>
-      <link>https://sipli.city/devlog/tech-stack/</link>
+      <link>http://localhost:1313/devlog/tech-stack/</link>
       <pubDate>Sun, 15 Sep 2024 12:00:00 +1000</pubDate>
-      <guid>https://sipli.city/devlog/tech-stack/</guid>
+      <guid>http://localhost:1313/devlog/tech-stack/</guid>
       <description>Siplicity has a backend written in Go. I chose Go mainly because I am familiar with it but can justify the choice on the basis that it is cross-platform, reasonably performant, and enables native integration with Siegfried.&#xA;The frontend is Flutter. This framework is best known for mobile UIs but it now has good desktop and web support too. It is modern, performant, and native-feeling.&#xA;The backend and frontend communicate via gRPC.</description>
     </item>
   </channel>

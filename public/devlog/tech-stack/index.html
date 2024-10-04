@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=59639&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 <meta name="description" content="Siplicity, a digital preservation tool">
@@ -11,20 +11,33 @@
     href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
     rel="stylesheet">
 
-      <link rel="stylesheet" href="/css/main.min.eed1a8b5c14312e837a23a12b691c303f65e631975994f8c3943245ae3d6baae.css" integrity="sha256-7tGotcFDEug3ojoStpHDA/ZeYxl1mU&#43;MOUMkWuPWuq4=" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/main.css">
 
 </head>
 <body>
   <header>
-    <h1><a href="https://sipli.city/">Siplicity</a></h1>
+    <header>
+    <div class="nav">
+        <ul>
+            <li><a href="http://localhost:59639/">Home</a></li>
+            
+            <li><a href="http://localhost:59639/devlog/">Devlog</a></li>
+            
+            
+            <li><a href="http://localhost:59639/screenshots/">Screenshots</a></li>
+            
+            
+            <li><a href="http://localhost:59639/purchase/">Purchase</a></li>
+            
+            
+            <li><a href="http://localhost:59639/policies/">Policies</a></li>
+            
+        </ul>
+    </div>
+</header>
   </header>
   <main>
     
-<h2>
-    <a href="https://sipli.city/devlog/">Devlog entry - Thursday, 3 October, 2024</a>
-</h2>
-
-<h3><a href="https://sipli.city/devlog/tech-stack/">Tech stack overview</a></h3>
 <p>Siplicity has a backend written in <a href="https://golang.org">Go</a>. I chose Go mainly because I am familiar with it but can justify the choice on the basis that it is cross-platform, reasonably performant, and enables native integration with <a href="https://www.itforarchivists.com/siegfried">Siegfried</a>.</p>
 <p>The frontend is <a href="https://flutter.dev">Flutter</a>. This framework is best known for mobile UIs but it now has good desktop and web support too. It is modern, performant, and native-feeling.</p>
 <p>The backend and frontend communicate via <a href="https://grpc.io">gRPC</a>. I&rsquo;ve been using the <a href="https://buf.build/">Buf</a> tooling for this.</p>
@@ -33,7 +46,7 @@
 
   </main>
   <footer>
-    
+    <footer></footer>
   </footer>
 </body>
 </html>
