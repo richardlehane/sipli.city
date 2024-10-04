@@ -70,8 +70,6 @@ blockquote {
   font-weight: lighter;
 }
 
-p {}
-
 div.nav>ul {
   float: right;
 }
@@ -82,9 +80,22 @@ div.nav>ul {
   position: relative;
 }
 
+@media screen and (min-width: 601px) {
+  .nav li a {
+    padding-left: 0.75rem;
+    font-size: 1.1rem;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .nav li a {
+    padding-left: 0.4rem;
+    font-size: 0.9rem;
+  }
+}
+
 .nav li a {
-  padding-left: 0.75rem;
-  font-size: 1.1rem;
   font-family: "Maven Pro", sans-serif;
   color: #80C4E9;
   font-weight: bold;
@@ -97,4 +108,16 @@ footer {
   font-weight: 500;
   color: #80C4E9;
   text-align: center;
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  text-align: justify;
 }
