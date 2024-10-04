@@ -6,9 +6,3 @@ title = 'My New Hugo Site'
   [module.hugoVersion]
     extended = false
     min = "0.116.0"
-
-[markup]
-  [markup.tableOfContents]
-    endLevel = 2
-    ordered = false
-    startLevel = 2
