@@ -6,7 +6,9 @@ draft = false
 
 # Siplicity
 ## A digital preservation triage tool
-> Profile, analyse, select, structure, describe, and package digital files for ingest into a digital repository.
+> Profile, analyse, select, structure, describe, and package digital files for transfer into a digital repository.
+
+![Screenshot of Siplicity application](screenshot.png)
 
 ### Features
 
@@ -19,8 +21,6 @@ draft = false
 - Output standards compliant metadata and packages
 - Audit logs
 - Client-server architecture for local and cloud deployment
-
-![Screenshot of Siplicity application](screenshot.png)
 
 ### Get in touch
 
