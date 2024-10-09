@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 <meta name="description" content="Siplicity, a digital preservation tool">
@@ -11,7 +11,7 @@
     href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
     rel="stylesheet">
 
-    <link rel="stylesheet" href="/css/main.css">
+      <link rel="stylesheet" href="/css/main.min.d70556452d3bac9b8c9e7d0493acee29847ed5d4c65430c6eae487f439b32a0a.css" integrity="sha256-1wVWRS07rJuMnn0Ek6zuKYR&#43;1dTGVDDG6uSH9DmzKgo=" crossorigin="anonymous">
 
 </head>
 <body>
@@ -19,18 +19,18 @@
     <header>
     <div class="nav">
         <ul>
-            <li><a href="http://localhost:1313/">Home</a></li>
+            <li><a href="https://sipli.city/">Home</a></li>
             
-            <li><a href="http://localhost:1313/devlog/">Devlog</a></li>
-            
-            
-            <li><a href="http://localhost:1313/screenshots/">Screenshots</a></li>
+            <li><a href="https://sipli.city/devlog/">Devlog</a></li>
             
             
-            <li><a href="http://localhost:1313/purchase/">Purchase</a></li>
+            <li><a href="https://sipli.city/screenshots/">Screenshots</a></li>
             
             
-            <li><a href="http://localhost:1313/policies/">Policies</a></li>
+            <li><a href="https://sipli.city/purchase/">Purchase</a></li>
+            
+            
+            <li><a href="https://sipli.city/policies/">Policies</a></li>
             
         </ul>
     </div>
@@ -42,10 +42,10 @@
 
 
 <h2>
-    <a href="http://localhost:1313/devlog/">Devlog entry - Thursday, 3 October, 2024</a>
+    <a href="https://sipli.city/devlog/">Devlog entry - Thursday, 3 October, 2024</a>
 </h2>
 
-<h3><a href="http://localhost:1313/devlog/bake-off/">Bake off - second attempt in the kitchen!</a></h3>
+<h3><a href="https://sipli.city/devlog/bake-off/">Bake off - second attempt in the kitchen!</a></h3>
 <p>Two weeks ago I gave a first demonstration of Siplicity for the <a href="https://ipres2024.pubpub.org/">iPRES conference</a> (the &ldquo;bake off&rdquo; stream). Many thanks to Micky, Dries, and the rest of the conference team for including me in the program.</p>
 <p>My presentation was unfortunately a little undercooked. Many of the ingredients were there, but without enough time in the coding oven, and so I focused the presentation on Siplicity&rsquo;s backend application (the GRPC server), which didn&rsquo;t make for an appetizing meal.</p>
 <p>OK, enough with the cooking puns! Here&rsquo;s the demo of Siplicity I would have liked to have given:</p>
@@ -70,10 +70,10 @@
 
 
 <h2>
-    <a href="http://localhost:1313/devlog/">Devlog entry - Thursday, 3 October, 2024</a>
+    <a href="https://sipli.city/devlog/">Devlog entry - Thursday, 3 October, 2024</a>
 </h2>
 
-<h3><a href="http://localhost:1313/devlog/tech-stack/">Tech stack overview</a></h3>
+<h3><a href="https://sipli.city/devlog/tech-stack/">Tech stack overview</a></h3>
 <p>Siplicity has a backend written in <a href="https://golang.org">Go</a>. I chose Go mainly because I am familiar with it but can justify the choice on the basis that it is cross-platform, reasonably performant, and enables native integration with <a href="https://www.itforarchivists.com/siegfried">Siegfried</a>.</p>
 <p>The frontend is <a href="https://flutter.dev">Flutter</a>. This framework is best known for mobile UIs but it now has good desktop and web support too. It is modern, performant, and native-feeling.</p>
 <p>The backend and frontend communicate via <a href="https://grpc.io">gRPC</a>. I&rsquo;ve been using the <a href="https://buf.build/">Buf</a> tooling for this.</p>

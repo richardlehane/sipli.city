@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Devlogs on Siplicity</title>
-    <link>http://localhost:1313/devlog/</link>
+    <link>https://sipli.city/devlog/</link>
     <description>Recent content in Devlogs on Siplicity</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 03 Oct 2024 10:00:00 +1000</lastBuildDate>
-    <atom:link href="http://localhost:1313/devlog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sipli.city/devlog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bake off - second attempt in the kitchen!</title>
-      <link>http://localhost:1313/devlog/bake-off/</link>
+      <link>https://sipli.city/devlog/bake-off/</link>
       <pubDate>Thu, 03 Oct 2024 10:00:00 +1000</pubDate>
-      <guid>http://localhost:1313/devlog/bake-off/</guid>
+      <guid>https://sipli.city/devlog/bake-off/</guid>
       <description>Two weeks ago I gave a first demonstration of Siplicity for the iPRES conference (the &amp;ldquo;bake off&amp;rdquo; stream). Many thanks to Micky, Dries, and the rest of the conference team for including me in the program.&#xA;My presentation was unfortunately a little undercooked. Many of the ingredients were there, but without enough time in the coding oven, and so I focused the presentation on Siplicity&amp;rsquo;s backend application (the GRPC server), which didn&amp;rsquo;t make for an appetizing meal.</description>
     </item>
     <item>
       <title>Tech stack overview</title>
-      <link>http://localhost:1313/devlog/tech-stack/</link>
+      <link>https://sipli.city/devlog/tech-stack/</link>
       <pubDate>Sun, 15 Sep 2024 12:00:00 +1000</pubDate>
-      <guid>http://localhost:1313/devlog/tech-stack/</guid>
+      <guid>https://sipli.city/devlog/tech-stack/</guid>
       <description>Siplicity has a backend written in Go. I chose Go mainly because I am familiar with it but can justify the choice on the basis that it is cross-platform, reasonably performant, and enables native integration with Siegfried.&#xA;The frontend is Flutter. This framework is best known for mobile UIs but it now has good desktop and web support too. It is modern, performant, and native-feeling.&#xA;The backend and frontend communicate via gRPC.</description>
     </item>
   </channel>

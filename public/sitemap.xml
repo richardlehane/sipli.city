@@ -2,29 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/policies/</loc>
+    <loc>https://sipli.city/policies/</loc>
     <lastmod>2024-10-04T12:00:00+10:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/purchase/</loc>
+    <loc>https://sipli.city/purchase/</loc>
     <lastmod>2024-10-04T12:00:00+10:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/screenshots/</loc>
+    <loc>https://sipli.city/screenshots/</loc>
     <lastmod>2024-10-04T12:00:00+10:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/devlog/bake-off/</loc>
+    <loc>https://sipli.city/devlog/bake-off/</loc>
     <lastmod>2024-10-03T10:00:00+10:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/devlog/</loc>
+    <loc>https://sipli.city/devlog/</loc>
     <lastmod>2024-10-03T10:00:00+10:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/devlog/tech-stack/</loc>
+    <loc>https://sipli.city/devlog/tech-stack/</loc>
     <lastmod>2024-09-15T12:00:00+10:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://sipli.city/</loc>
     <lastmod>2024-08-07T12:00:00+10:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://sipli.city/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://sipli.city/tags/</loc>
   </url>
 </urlset>
