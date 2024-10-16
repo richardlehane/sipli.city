@@ -5,8 +5,8 @@ draft = false
 +++
 
 # Siplicity
-## A digital preservation triage tool
-> Profile, analyse, select, structure, describe, and package digital files for transfer into a digital repository.
+## Makes transferring digital files simple
+> Assess, select, describe, and package digital files for transfer into a digital repository.
 
 ![Screenshot of Siplicity application](screenshot.png)
 
