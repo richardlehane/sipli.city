@@ -6,7 +6,7 @@ draft = false
 
 # Siplicity
 ## Makes transferring digital files simple
-> Explore, select, describe, and package digital files for transfer.
+> Explore, select, arrange, describe, and package digital files for transfer.
 
 ![Screenshot of Siplicity application](screenshot.png)
 
