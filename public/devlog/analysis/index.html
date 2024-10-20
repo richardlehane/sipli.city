@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<meta name="description" content="Siplicity, a digital preservation tool">
+<title>Actionable analytics | Siplicity</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+    rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/main.css">
+
+</head>
+<body>
+  <header>
+    <header>
+    <div class="nav">
+        <ul>
+            <li><a href="http://localhost:1313/">Home</a></li>
+            
+            <li><a href="http://localhost:1313/devlog/">Devlog</a></li>
+            
+            
+            <li><a href="http://localhost:1313/screenshots/">Screenshots</a></li>
+            
+            
+            <li><a href="http://localhost:1313/get-it/">Get it</a></li>
+            
+        </ul>
+    </div>
+</header>
+  </header>
+  <main>
+    
+<h1>Siplicity Devlog</h1>
+<h2>
+    <a href="http://localhost:1313/devlog/">Devlog entry - Sunday, 20 October, 2024</a>
+</h2>
+
+<h3><a href="http://localhost:1313/devlog/analysis/">Actionable analytics</a></h3>
+<p>This week I finished the first draft of Siplicity&rsquo;s analysis pane.</p>
+<p>Here&rsquo;s how it looks:</p>
+
+
+
+<img alt="Screencast of analysis pane" src="/devlog/analysis/analysis.gif" width="1254" height="703">
+
+<p>As soon as you add files to the to the workspace, an initial set of reports is automatically created, with visualisations for file sizes, dates modified, and file extensions.</p>
+<p>Running actions over the files in your workspace can produce further reports:</p>
+<ul>
+<li>the siegfried action creates format ID, format class and mime-type reports</li>
+<li>any of the checksum actions will generate a duplicate report.</li>
+</ul>
+<p>All of the reports can be used as the basis for queries to the worspace pane. So that, for example, you can more closely inspect files from a particular date range or of a particular format type.</p>
+<p>This connection between the analysis and workspace panes can power workflows like:</p>
+<ul>
+<li>identifying and removing zero-byte files</li>
+<li>selecting duplicate files for removal</li>
+<li>blacklisting sets of file formats</li>
+<li>whitelisting file formats for selection to the output pane.</li>
+</ul>
+<p>In other words, Siplicity&rsquo;s analytics produce more than insights. They are actionable.</p>
+
+
+  </main>
+  <footer>
+    <footer></footer>
+  </footer>
+</body>
+</html>

@@ -8,7 +8,7 @@ draft = false
 ## Makes transferring digital files simple
 > Explore, select, arrange, describe, and package digital files for transfer.
 
-![Screenshot of Siplicity application](screenshot.png)
+{{< image screencast.gif >}}Screencast of Siplicity application{{< /image >}}
 
 ### Features
 

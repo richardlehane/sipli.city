@@ -6,21 +6,28 @@
     <description>Recent content in About on Siplicity</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 04 Oct 2024 12:00:00 +1000</lastBuildDate>
+    <lastBuildDate>Sun, 20 Oct 2024 10:00:00 +1000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Actionable analytics</title>
+      <link>http://localhost:1313/devlog/analysis/</link>
+      <pubDate>Sun, 20 Oct 2024 10:00:00 +1000</pubDate>
+      <guid>http://localhost:1313/devlog/analysis/</guid>
+      <description>This week I finished the first draft of Siplicity&amp;rsquo;s analysis pane.&#xA;Here&amp;rsquo;s how it looks:&#xA;As soon as you add files to the to the workspace, an initial set of reports is automatically created, with visualisations for file sizes, dates modified, and file extensions.&#xA;Running actions over the files in your workspace can produce further reports:&#xA;the siegfried action creates format ID, format class and mime-type reports any of the checksum actions will generate a duplicate report.</description>
+    </item>
+    <item>
+      <title>Get it</title>
+      <link>http://localhost:1313/get-it/</link>
+      <pubDate>Fri, 04 Oct 2024 12:00:00 +1000</pubDate>
+      <guid>http://localhost:1313/get-it/</guid>
+      <description>Buy Siplicity Siplicity is under active development and isn&amp;rsquo;t available for purchase yet.&#xA;The plan is to release an early access version in late 2024, with a version one release following in early 2025.&#xA;Licenses Siplicity will be licensed with the Fair Core License. This means that users will have access to Siplicity&amp;rsquo;s source code and can modify the application and distribute those modifications for use by other licensed users. It also means that Siplicity versions will automatically transition to Open Source (Apache 2.</description>
+    </item>
     <item>
       <title>Policies</title>
       <link>http://localhost:1313/policies/</link>
       <pubDate>Fri, 04 Oct 2024 12:00:00 +1000</pubDate>
       <guid>http://localhost:1313/policies/</guid>
       <description>Policies Siplicity is developed by Richard Lehane. My Australian Business Number is ABN 82 401 614 058.&#xA;If you have any questions about the following policies, please contact me at richard.lehane@gmail.com.&#xA;Privacy Policy Terms and Conditions Refunds Privacy Policy 4 October, 2024&#xA;This Privacy Policy identifies the personal information collected about you and why, describes what is done with that personal information, how it is used and disclosed, and your rights to access and request corrections or deletion of information.</description>
-    </item>
-    <item>
-      <title>Purchase</title>
-      <link>http://localhost:1313/purchase/</link>
-      <pubDate>Fri, 04 Oct 2024 12:00:00 +1000</pubDate>
-      <guid>http://localhost:1313/purchase/</guid>
-      <description>Buy Siplicity Siplicity is under active development and isn&amp;rsquo;t available for purchase yet.&#xA;The plan is to release an early access version in late 2024, with a version one release following in early 2025.&#xA;Licenses Siplicity will be licensed with the Fair Core License. This means that users will have access to Siplicity&amp;rsquo;s source code and can modify the application and distribute those modifications for use by other licensed users. It also means that Siplicity versions will automatically transition to Open Source (Apache 2.</description>
     </item>
     <item>
       <title>Screenshots</title>

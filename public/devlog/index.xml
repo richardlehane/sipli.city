@@ -6,8 +6,15 @@
     <description>Recent content in Devlogs on Siplicity</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Oct 2024 10:00:00 +1000</lastBuildDate>
+    <lastBuildDate>Sun, 20 Oct 2024 10:00:00 +1000</lastBuildDate>
     <atom:link href="http://localhost:1313/devlog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Actionable analytics</title>
+      <link>http://localhost:1313/devlog/analysis/</link>
+      <pubDate>Sun, 20 Oct 2024 10:00:00 +1000</pubDate>
+      <guid>http://localhost:1313/devlog/analysis/</guid>
+      <description>This week I finished the first draft of Siplicity&amp;rsquo;s analysis pane.&#xA;Here&amp;rsquo;s how it looks:&#xA;As soon as you add files to the to the workspace, an initial set of reports is automatically created, with visualisations for file sizes, dates modified, and file extensions.&#xA;Running actions over the files in your workspace can produce further reports:&#xA;the siegfried action creates format ID, format class and mime-type reports any of the checksum actions will generate a duplicate report.</description>
+    </item>
     <item>
       <title>Bake off - second attempt in the kitchen!</title>
       <link>http://localhost:1313/devlog/bake-off/</link>

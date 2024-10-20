@@ -1,0 +1,8 @@
+{{ with .Site.GetPage "policies" }}
+<h2><a href="{{.Permalink}}">Policies</a></h2>
+<ul>
+    <li><a href="{{.Permalink}}/#privacy-policy">Privacy policy</a></li>
+    <li><a href="{{.Permalink}}/#terms-and-conditions">Terms and conditions</a></li>
+    <li><a href="{{.Permalink}}/#refunds">Refunds</a></li>
+</ul>
+{{ end }}
