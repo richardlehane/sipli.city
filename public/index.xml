@@ -34,7 +34,7 @@
       <link>http://localhost:1313/screenshots/</link>
       <pubDate>Fri, 04 Oct 2024 12:00:00 +1000</pubDate>
       <guid>http://localhost:1313/screenshots/</guid>
-      <description>Screenshots Workspace Pane The workspace pane is where you select, structure, describe digital content and export to your preferred targets.&#xA;Details view Within the workspace pane you can select and view the details for particular records. Siplicity&amp;rsquo;s metadata model allows for the capture of arbitrarily deeply nested metadata structures. This means, for example, that you can capture the time a checksum was performed, along with the algorithm. For siegfried results, you see the full information reported for identifications, as well as metadata about the siegfried process itself (siegfried and PRONOM version details).</description>
+      <description>Screenshots Workspace Pane The workspace pane is where you select, structure, describe digital content and export to your preferred targets.&#xA;Details view Within the workspace pane you can select and view the details for particular records. Siplicity&amp;rsquo;s metadata model allows for the capture of arbitrarily deeply nested metadata structures. This means, for example, that you can capture the time a checksum was performed, along with the algorithm.&#xA;Analysis pane The analysis pane provides visualisations of file size, dates, and file extensions.</description>
     </item>
     <item>
       <title>Bake off - second attempt in the kitchen!</title>
