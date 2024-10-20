@@ -13,6 +13,12 @@ The workspace pane is where you select, structure, describe digital content and 
 
 ## Details view
 
-Within the workspace pane you can select and view the details for particular records. Siplicity's metadata model allows for the capture of arbitrarily deeply nested metadata structures. This means, for example, that you can capture the time a checksum was performed, along with the algorithm. For siegfried results, you see the full information reported for identifications, as well as metadata about the siegfried process itself (siegfried and PRONOM version details).
+Within the workspace pane you can select and view the details for particular records. Siplicity's metadata model allows for the capture of arbitrarily deeply nested metadata structures. This means, for example, that you can capture the time a checksum was performed, along with the algorithm.
 
 ![Screenshot of Siplicity application, showing the details view for a record](screenshot2.png)
+
+## Analysis pane
+
+The analysis pane provides visualisations of file sizes, dates, and file extensions. Running actions such as siegfried identification or checksums produces additional reports on file formats and duplicates. Each analysis links to queries back to the workspace pane allowing you, for example, to quickly identify and remove zero-byte files or duplicates.
+
+![Screenshot of Siplicity application, showing the details view for a record](screenshot3.png)
