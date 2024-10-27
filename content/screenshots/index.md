@@ -5,7 +5,7 @@ draft = false
 +++
 
 # Screenshots
-## Workspace Pane
+## Workspace pane
 
 The workspace pane is where you select, structure, describe digital content and export to your preferred targets.
 
@@ -21,4 +21,10 @@ Within the workspace pane you can select and view the details for particular rec
 
 The analysis pane provides visualisations of file sizes, dates, and file extensions. Running actions such as siegfried identification or checksums produces additional reports on file formats and duplicates. Each analysis links to queries back to the workspace pane allowing you, for example, to quickly identify and remove zero-byte files or duplicates.
 
-![Screenshot of Siplicity application, showing the details view for a record](screenshot3.png)
+![Screenshot of Siplicity application, showing the analysis pane](screenshot3.png)
+
+## Data entry pane
+
+Bulk edit file and folder metadata in the data entry pane. Select any number of fields to edit. Filter by graph, record type and queries.
+
+![Screenshot of Siplicity application, showing the data entry pane](screenshot4.png)
