@@ -4,6 +4,10 @@ date = 2024-10-04T12:00:00+10:00
 draft = false
 +++
 
+# Try Siplicity
+
+Install Siplicity for Windows [here](/releases/siplicity.msi)
+
 # Buy Siplicity
 
 Siplicity is under active development and isn't available for purchase yet. 
