@@ -1,6 +1,5 @@
-{{ with .Site.GetPage "devlog" }}<h2>
+<h2>
     <a href="{{ .Permalink }}">Devlog entry - {{ dateFormat "Monday, 2 January, 2006" .Date }}</a>
 </h2>
-{{ end }}
 <h3><a href="{{.Permalink}}">{{.Title}}</a></h3>
 {{ .Content }}
