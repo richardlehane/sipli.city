@@ -121,3 +121,8 @@ pre {
   word-wrap: break-word;
   text-align: justify;
 }
+
+hr {
+  margin-top: 20pt;
+  border: none;
+}

@@ -3,6 +3,7 @@
 {{ with .Site.GetPage "devlog" }}
 {{ range .Pages }}
 {{ partial "article.html" . }}
+<hr>
 {{ end }}
 {{ end }}
 {{ end }}

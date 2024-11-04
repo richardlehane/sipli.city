@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr">
 <head>
-	<meta name="generator" content="Hugo 0.133.0">
+	<meta name="generator" content="Hugo 0.133.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 <meta name="description" content="Siplicity, a digital preservation tool">
@@ -12,7 +12,7 @@
     href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
     rel="stylesheet">
 
-      <link rel="stylesheet" href="/css/main.min.9e2f65506b56f7a5c4406217ed261f4326ebd94c8170fd74efddabec0f5d79dc.css" integrity="sha256-ni9lUGtW96XEQGIX7SYfQybr2UyBcP10792r7A9dedw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/main.css">
 
 </head>
 <body>
@@ -20,15 +20,15 @@
     <header>
     <div class="nav">
         <ul>
-            <li><a href="https://sipli.city/">Home</a></li>
+            <li><a href="http://localhost:1313/">Home</a></li>
             
-            <li><a href="https://sipli.city/devlog/">Devlog</a></li>
-            
-            
-            <li><a href="https://sipli.city/screenshots/">Screenshots</a></li>
+            <li><a href="http://localhost:1313/devlog/">Devlog</a></li>
             
             
-            <li><a href="https://sipli.city/get-it/">Get it</a></li>
+            <li><a href="http://localhost:1313/screenshots/">Screenshots</a></li>
+            
+            
+            <li><a href="http://localhost:1313/get-it/">Get it</a></li>
             
         </ul>
     </div>
@@ -46,21 +46,18 @@
 
 <img alt="Screencast of Siplicity application" src="/screencast.gif" width="876" height="686">
 
-<h3 id="features">Features</h3>
-<ul>
-<li>Format identification</li>
-<li>Duplicate detection</li>
-<li>Checksum calculation and verification</li>
-<li>Metadata import</li>
-<li>Pattern based file renaming</li>
-<li>Pattern based filtering and file selection</li>
-<li>Output standards compliant metadata and packages</li>
-<li>Audit logs</li>
-<li>Client-server architecture for local and cloud deployment</li>
-</ul>
-<h3 id="get-in-touch">Get in touch</h3>
-<p>Siplicity is in active development. It&rsquo;s developed by <a href="https://richardlehane.me">Richard Lehane</a>. I&rsquo;m planning for an early access release in late 2024 and a version one in early 2025.</p>
-<p>If you&rsquo;d like to discuss a use case, or have a question, please drop me a line at <a href="mailto:richard.lehane@gmail.com">richard.lehane@gmail.com</a>.</p>
+<hr>
+<h2 id="features">Features</h2>
+<h3 id="select-and-re-arrange-digital-files">Select and re-arrange digital files</h3>
+<p>Choose the files you want to transfer, edit structures, rename files, and commit your changes to disk. Work fearlessly in the knowledge that sources files are immutable, commits are copies, and nothing is written to disk before a commit.</p>
+<h3 id="annotate-digital-files">Annotate digital files</h3>
+<p>Siplicity has an open metadata model that allows you to annotate digital files and folders with any information you need for your analysis or to power workflows. The <a href="screenshots#data-entry-pane">data entry pane</a> supports rapid data entry.</p>
+<h3 id="take-action">Take action</h3>
+<p>Siplicity has a set of built-in actions that enrich your digital files with additional metadata. These include format identification (using <a href="https://itforarchivists.com/siegfried">siegfried</a>), UUID minting, and checksum generation with a variety of algorithms.</p>
+<h3 id="analyze-and-review">Analyze and Review</h3>
+<p>The <a href="screenshots#analysis-pane">analysis pane</a> provides visualisations of file sizes, dates, and file extensions. Running identification or checksum actions produces additional reports on file formats and duplicates. Each analysis links to queries back to the workspace pane allowing you, for example, to quickly identify and remove zero-byte files or duplicates.</p>
+<h3 id="package-files-in-standard-formats">Package files in standard formats</h3>
+<p>Automatically package your output files in the <a href="https://datatracker.ietf.org/doc/html/rfc8493">Bagit format</a>. More output formats are on the way.</p>
 
 
   </main>

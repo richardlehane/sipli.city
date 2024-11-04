@@ -10,21 +10,24 @@ draft = false
 
 {{< image screencast.gif >}}Screencast of Siplicity application{{< /image >}}
 
-### Features
+---
 
-- Format identification
-- Duplicate detection
-- Checksum calculation and verification
-- Metadata import
-- Pattern based file renaming
-- Pattern based filtering and file selection
-- Output standards compliant metadata and packages
-- Audit logs
-- Client-server architecture for local and cloud deployment
+## Features
+### Select and re-arrange digital files
+Choose the files you want to transfer, edit structures, rename files, and commit your changes to disk. Work fearlessly in the knowledge that sources files are immutable, commits are copies, and nothing is written to disk before a commit.
 
-### Get in touch
+### Annotate digital files
+Siplicity has an open metadata model that allows you to annotate digital files and folders with any information you need for your analysis or to power workflows. The [data entry pane](screenshots#data-entry-pane) supports rapid data entry.
 
-Siplicity is in active development. It's developed by [Richard Lehane](https://richardlehane.me). I'm planning for an early access release in late 2024 and a version one in early 2025.
+### Take action
+Siplicity has a set of built-in actions that enrich your digital files with additional metadata. These include format identification (using [siegfried](https://itforarchivists.com/siegfried)), UUID minting, and checksum generation with a variety of algorithms.
 
-If you'd like to discuss a use case, or have a question, please drop me a line at [richard.lehane@gmail.com](mailto:richard.lehane@gmail.com).
+### Analyze and Review
+The [analysis pane](screenshots#analysis-pane) provides visualisations of file sizes, dates, and file extensions. Running identification or checksum actions produces additional reports on file formats and duplicates. Each analysis links to queries back to the workspace pane allowing you, for example, to quickly identify and remove zero-byte files or duplicates.
+
+### Package files in standard formats
+Automatically package your output files in the [Bagit format](https://datatracker.ietf.org/doc/html/rfc8493). More output formats are on the way.
+
+
+
 

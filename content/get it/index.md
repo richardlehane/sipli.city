@@ -3,29 +3,22 @@ title = "Get Siplicity"
 date = 2024-10-04T12:00:00+10:00
 draft = false
 +++
+# Get Siplicity
 
-# Try Siplicity
+## Try it
 
-Install Siplicity for Windows [here](/releases/siplicity.msi)
+[Download Siplicity for Windows (64-bit x86)](/releases/siplicity.msi)
 
-# Buy Siplicity
+Siplicity can be downloaded and tested for free. A license is required to use the *Commit* button.
 
-Siplicity is under active development and isn't available for purchase yet. 
+## Buy it
 
-The plan is to release an early access version in late 2024, with a version one release following in early 2025.
+An early access version of Siplicity is now available for purchase. The version one release is planned for early 2025.
 
-## Licenses
-
-Siplicity will be licensed with the [Fair Core License](https://fcl.dev/). This means that users will have access to Siplicity's source code and can modify the application and distribute those modifications for use by other licensed users. It also means that Siplicity versions will automatically transition to Open Source (Apache 2.0) after two years.
-
-Licenses will be a one-time purchase, valid for two years worth of updates and releases, and won't expire (i.e. you'll continue to be able to use Siplicity if you don't renew after two years, but won't have access to the latest releases).
-
-The goals of this approach are to:
-
-- fairly share the costs of developing Siplicity
-- be transparent and trustworthy by allowing users to inspect and review Siplicity's source code
-- respect users' rights to modify Siplicity and share their changes with other users
-- ensure Siplicity's longevity with a rolling transition to Open Source.
+Siplicity is licensed under the [Fair Core License](https://fcl.dev/). This means that users receive access to Siplicity's source code and can modify the application and distribute those modifications for use by other licensed users. It also means that Siplicity versions automatically transition to Open Source (Apache 2.0) after two years. Licenses are a one-time purchase, valid for two year's worth of updates, and don't expire (i.e. you can continue to use Siplicity if you don't renew, but won't have access to the latest releases). Licenses are issued on a per-user basis. *Siplicity is currently in an early access period and early access supporters are entitled to three year's worth of updates.*
 
 {{< policies >}}
 
+## Get in touch
+
+Siplicity is developed by [Richard Lehane](https://richardlehane.me). If you'd like to discuss a use case, or have a question, please drop me a line at [richard.lehane@gmail.com](mailto:richard.lehane@gmail.com).

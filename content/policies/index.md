@@ -55,7 +55,9 @@ If you would like to access personal information stored about you, or request co
 
 ## Terms and Conditions
 
-Siplicity is licensed under the [Fair Core License](https://fcl.dev/):
+Siplicity is licensed under the [Fair Core License](https://fcl.dev/). This means that users receive access to Siplicity's source code and can modify the application and distribute those modifications for use by other licensed users. It also means that Siplicity versions automatically transition to Open Source (Apache 2.0) after two years. Licenses are a one-time purchase, valid for two year's worth of updates, and don't expire (i.e. you can continue to use Siplicity if you don't renew, but won't have access to the latest releases). Licenses are issued on a per-user basis. *Siplicity is currently in an early access period and early access supporters are entitled to three year's worth of updates.*
+
+### License
 
 ```
 # Fair Core License, Version 1.0, ALv2 Future License
