@@ -13,10 +13,10 @@ draft = false
 ---
 
 ## Features
-### Select and re-arrange digital files
+### Select and re-arrange
 Choose the files you want to transfer, edit structures, rename files, and commit your changes to disk. Work fearlessly in the knowledge that sources files are immutable, commits are copies, and nothing is written to disk before a commit.
 
-### Annotate digital files
+### Annotate
 Siplicity has an open metadata model that allows you to annotate digital files and folders with any information you need for your analysis or to power workflows. The [data entry pane](screenshots#data-entry-pane) supports rapid data entry.
 
 ### Take action
@@ -25,7 +25,7 @@ Siplicity has a set of built-in actions that enrich your digital files with addi
 ### Analyze and Review
 The [analysis pane](screenshots#analysis-pane) provides visualisations of file sizes, dates, and file extensions. Running identification or checksum actions produces additional reports on file formats and duplicates. Each analysis links to queries back to the workspace pane allowing you, for example, to quickly identify and remove zero-byte files or duplicates.
 
-### Package files in standard formats
+### Package in standard formats
 Automatically package your output files in the [Bagit format](https://datatracker.ietf.org/doc/html/rfc8493). More output formats are on the way.
 
 

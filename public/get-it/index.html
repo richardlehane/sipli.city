@@ -11,6 +11,30 @@
     href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
     rel="stylesheet">
 
+<script src="https://cdn.paddle.com/paddle/v2/paddle.js"></script>
+<script type="text/javascript">
+    Paddle.Environment.set("sandbox");
+    Paddle.Initialize({
+        token: 'test_ebcc55c606400628d2f99defb24' 
+    });
+    let itemsList = [
+        {
+            priceId: "pri_01jbtmx2c5fg0ty3x0z9ae1vv2",
+            quantity: 1
+        }
+    ];
+    function openCheckout(items) {
+        Paddle.Checkout.open({
+            settings: {
+                displayMode: "overlay",
+                theme: "light",
+                successUrl: "https://sipli.city/thank-you"
+            },
+            items: items,
+        });
+    }
+</script>
+
     <link rel="stylesheet" href="/css/main.css">
 
 </head>
@@ -38,10 +62,13 @@
 <h1 id="get-siplicity">Get Siplicity</h1>
 <h2 id="try-it">Try it</h2>
 <p><a href="/releases/siplicity.msi">Download Siplicity for Windows (64-bit x86)</a></p>
-<p>Siplicity can be downloaded and tested for free. A license is required to use the <em>Commit</em> button.</p>
+<p>Siplicity can be downloaded and tested for free. A license is required to use the <em>Commit</em> function.</p>
 <h2 id="buy-it">Buy it</h2>
 <p>An early access version of Siplicity is now available for purchase. The version one release is planned for early 2025.</p>
-<p>Siplicity is licensed under the <a href="https://fcl.dev/">Fair Core License</a>. This means that users receive access to Siplicity&rsquo;s source code and can modify the application and distribute those modifications for use by other licensed users. It also means that Siplicity versions automatically transition to Open Source (Apache 2.0) after two years. Licenses are a one-time purchase, valid for two year&rsquo;s worth of updates, and don&rsquo;t expire (i.e. you can continue to use Siplicity if you don&rsquo;t renew, but won&rsquo;t have access to the latest releases). Licenses are issued on a per-user basis. <em>Siplicity is currently in an early access period and early access supporters are entitled to three year&rsquo;s worth of updates.</em></p>
+<p>Siplicity is licensed under the <a href="https://fcl.dev/">Fair Core License</a>. This means that users receive access to Siplicity&rsquo;s source code and can modify the application and distribute those modifications for use by other licensed users. It also means that Siplicity versions automatically transition to Open Source (Apache 2.0) after two years.</p>
+<p>Licenses are a one-time purchase, valid for two year&rsquo;s worth of updates<!-- raw HTML omitted -->*<!-- raw HTML omitted -->, and don&rsquo;t expire (i.e. you can continue to use Siplicity if you don&rsquo;t renew, but won&rsquo;t have access to the latest releases). Licenses are issued on a per-user basis.</p>
+<a href="#" class="button" onclick="openCheckout(itemsList)">Buy Siplicity</a>
+<p><!-- raw HTML omitted -->*<!-- raw HTML omitted --><em>During the early access period, licensed users are entitled to three year&rsquo;s worth of updates.</em></p>
 
 <h2><a href="http://localhost:1313/policies/">Policies</a></h2>
 <ul>

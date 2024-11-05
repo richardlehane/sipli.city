@@ -7,15 +7,19 @@ draft = false
 
 ## Try it
 
-[Download Siplicity for Windows (64-bit x86)](/releases/siplicity.msi)
+[Download Siplicity for Windows (64-bit x64)](/releases/siplicity.msi)
 
-Siplicity can be downloaded and tested for free. A license is required to use the *Commit* button.
+Siplicity can be downloaded and tested for free. A license is required to use the *Commit* function.
 
 ## Buy it
 
 An early access version of Siplicity is now available for purchase. The version one release is planned for early 2025.
 
-Siplicity is licensed under the [Fair Core License](https://fcl.dev/). This means that users receive access to Siplicity's source code and can modify the application and distribute those modifications for use by other licensed users. It also means that Siplicity versions automatically transition to Open Source (Apache 2.0) after two years. Licenses are a one-time purchase, valid for two year's worth of updates, and don't expire (i.e. you can continue to use Siplicity if you don't renew, but won't have access to the latest releases). Licenses are issued on a per-user basis. *Siplicity is currently in an early access period and early access supporters are entitled to three year's worth of updates.*
+Siplicity is licensed under the [Fair Core License](https://fcl.dev/). This means that users receive access to Siplicity's source code and can modify the application and distribute those modifications for use by other licensed users. It also means that Siplicity versions automatically transition to Open Source (Apache 2.0) after two years.
+
+Licenses are a one-time purchase, valid for two year's worth of updates<sup>*</sup>, and don't expire (i.e. you can continue to use Siplicity if you don't renew, but won't have access to the latest releases). Licenses are issued on a per-user basis. 
+
+<sup>*</sup>*During the early access period, licensed users are entitled to three year's worth of updates.*
 
 {{< policies >}}
 

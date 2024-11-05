@@ -7,4 +7,28 @@
 <link
     href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
     rel="stylesheet">
+{{ if .HasShortcode "paddle" }}
+<script src="https://cdn.paddle.com/paddle/v2/paddle.js"></script>
+<script type="text/javascript">
+    Paddle.Environment.set("sandbox");
+    Paddle.Initialize({
+        token: 'test_ebcc55c606400628d2f99defb24' // replace with a client-side token
+    });
+    let itemsList = [
+        {
+            priceId: "pri_01jbtmx2c5fg0ty3x0z9ae1vv2",
+            quantity: 1
+        }
+    ];
+    function openCheckout(items) {
+        Paddle.Checkout.open({
+            settings: {
+                displayMode: "overlay",
+                theme: "light",
+                successUrl: "https://sipli.city/thank-you"
+            },
+            items: items,
+        });
+    }
+</script>{{ end }}
 {{ partial "head/css.html" . }}

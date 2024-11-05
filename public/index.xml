@@ -13,7 +13,7 @@
       <link>http://localhost:1313/thank-you/</link>
       <pubDate>Mon, 04 Nov 2024 09:00:00 +1000</pubDate>
       <guid>http://localhost:1313/thank-you/</guid>
-      <description>Thank you! Thank you for purchasing a Siplicity license.&#xA;You will receive an email from me within 24 hours with your license key and license file. These can be added in Siplicity on the settings page (the cog icon on the top right).&#xA;As a licensed user, you are entitled to access Siplicity&amp;rsquo;s source code. If you have a Github account, I can enable this access by adding you to the Siplicity organisation.</description>
+      <description>Thank you! Thank you for purchasing a Siplicity license.&#xA;You will receive an email from me within 24 hours with your license key and license file. These can be added in Siplicity on the settings page (the cog icon on the top right).&#xA;If you haven&amp;rsquo;t installed Siplicity yet, it is available for download in the &amp;ldquo;Try it&amp;rdquo; section of the Get Siplicity page. Please let me know if you enounter any issues setting it up.</description>
     </item>
     <item>
       <title>Actionable analytics</title>
@@ -27,7 +27,7 @@
       <link>http://localhost:1313/get-it/</link>
       <pubDate>Fri, 04 Oct 2024 12:00:00 +1000</pubDate>
       <guid>http://localhost:1313/get-it/</guid>
-      <description>Get Siplicity Try it Download Siplicity for Windows (64-bit x86)&#xA;Siplicity can be downloaded and tested for free. A license is required to use the Commit button.&#xA;Buy it An early access version of Siplicity is now available for purchase. The version one release is planned for early 2025.&#xA;Siplicity is licensed under the Fair Core License. This means that users receive access to Siplicity&amp;rsquo;s source code and can modify the application and distribute those modifications for use by other licensed users.</description>
+      <description>Get Siplicity Try it Download Siplicity for Windows (64-bit x86)&#xA;Siplicity can be downloaded and tested for free. A license is required to use the Commit function.&#xA;Buy it An early access version of Siplicity is now available for purchase. The version one release is planned for early 2025.&#xA;Siplicity is licensed under the Fair Core License. This means that users receive access to Siplicity&amp;rsquo;s source code and can modify the application and distribute those modifications for use by other licensed users.</description>
     </item>
     <item>
       <title>Policies</title>
