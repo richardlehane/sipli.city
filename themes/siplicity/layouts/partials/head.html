@@ -10,6 +10,7 @@
 {{ if .HasShortcode "paddle" }}
 <script src="https://cdn.paddle.com/paddle/v2/paddle.js"></script>
 <script type="text/javascript">
+    {{ if hugo.IsDevelopment }}
     Paddle.Environment.set("sandbox");
     Paddle.Initialize({
         token: 'test_ebcc55c606400628d2f99defb24' // replace with a client-side token
@@ -20,6 +21,18 @@
             quantity: 1
         }
     ];
+    {{ end }}
+    {{ if hugo.IsProduction }}
+    Paddle.Initialize({
+        token: 'live_69de63b790182d50ca89cc0b33f' // replace with a client-side token
+    });
+    let itemsList = [
+        {
+            priceId: "pri_01jbpe9p5e40kvrbbvm840pkm3",
+            quantity: 1
+        }
+    ];
+    {{ end }}
     function openCheckout(items) {
         Paddle.Checkout.open({
             settings: {

@@ -19,6 +19,8 @@ Siplicity is licensed under the [Fair Core License](https://fcl.dev/). This mean
 
 Licenses are a one-time purchase, valid for two year's worth of updates<sup>*</sup>, and don't expire (i.e. you can continue to use Siplicity if you don't renew, but won't have access to the latest releases). Licenses are issued on a per-user basis. 
 
+{{< paddle >}}
+
 <sup>*</sup>*During the early access period, licensed users are entitled to three year's worth of updates.*
 
 {{< policies >}}

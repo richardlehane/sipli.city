@@ -13,6 +13,7 @@
 
 <script src="https://cdn.paddle.com/paddle/v2/paddle.js"></script>
 <script type="text/javascript">
+    
     Paddle.Environment.set("sandbox");
     Paddle.Initialize({
         token: 'test_ebcc55c606400628d2f99defb24' 
@@ -23,6 +24,8 @@
             quantity: 1
         }
     ];
+    
+    
     function openCheckout(items) {
         Paddle.Checkout.open({
             settings: {
@@ -61,7 +64,7 @@
     
 <h1 id="get-siplicity">Get Siplicity</h1>
 <h2 id="try-it">Try it</h2>
-<p><a href="/releases/siplicity.msi">Download Siplicity for Windows (64-bit x86)</a></p>
+<p><a href="/releases/siplicity.msi">Download Siplicity for Windows (64-bit x64)</a></p>
 <p>Siplicity can be downloaded and tested for free. A license is required to use the <em>Commit</em> function.</p>
 <h2 id="buy-it">Buy it</h2>
 <p>An early access version of Siplicity is now available for purchase. The version one release is planned for early 2025.</p>
