@@ -1,5 +1,0 @@
-{{ $href := .Get 0 }}
-{{ $alt := .Inner }}
-{{ with .Page.Resources.GetMatch $href }}
-<img alt="{{ $alt }}" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
-{{ end }}

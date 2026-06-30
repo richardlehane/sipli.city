@@ -1,0 +1,11 @@
+<rss version="2.0">
+  <channel>
+    <title :text="$site.title"></title>
+    <link :text="$site.host_url"></link>
+    <description :text="$site.title.suffix(' - Devlog')"></description>
+    <generator>Zine -- https://zine-ssg.io</generator>
+    <language>en-US</language>
+    <lastBuildDate :text="$build.generated.formatHTTP()"></lastBuildDate>
+
+  </channel>
+</rss>

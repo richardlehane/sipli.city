@@ -1,91 +1,55 @@
 <!DOCTYPE html>
-<html lang="en-us" dir="ltr">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-  <meta charset="utf-8">
-<meta name="viewport" content="width=device-width">
-<meta name="description" content="Siplicity, a digital preservation tool">
-<title>Get Siplicity | Siplicity</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link
-    href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
-    rel="stylesheet">
+<html>
+	<head id="head">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Siplicity</title>
+		<meta name="description" content="Siplicity makes transferring digital files simple">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+		<link type="text/css" rel="stylesheet" href="/style.css">
+		
+	<script src="https://cdn.paddle.com/paddle/v2/paddle.js"></script>
+	<script type="text/javascript">
+		Paddle.Initialize({
+			token: 'live_69de63b790182d50ca89cc0b33f'
+		});
+	let itemsList = [
+		{
+			priceId: "pri_01jbpe9p5e40kvrbbvm840pkm3",
+			quantity: 1
+		}
+	];
+	function openCheckout(items) {
+		Paddle.Checkout.open({
+			settings: {
+				displayMode: "overlay",
+				theme: "light",
+				successUrl: "https://sipli.city/thank-you"
+			},
+			items: items,
+		});
+}
+	</script>
+	<script type="text/javascript"></script>
 
-<script src="https://cdn.paddle.com/paddle/v2/paddle.js"></script>
-<script type="text/javascript">
-    
-    Paddle.Environment.set("sandbox");
-    Paddle.Initialize({
-        token: 'test_ebcc55c606400628d2f99defb24' 
-    });
-    let itemsList = [
-        {
-            priceId: "pri_01jbtmx2c5fg0ty3x0z9ae1vv2",
-            quantity: 1
-        }
-    ];
-    
-    function openCheckout(items) {
-        Paddle.Checkout.open({
-            settings: {
-                displayMode: "overlay",
-                theme: "light",
-                successUrl: "https://sipli.city/thank-you"
-            },
-            items: items,
-        });
-    }
-</script>
+	</head>
+	<header>
+		<div class="nav">
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="/devlog/">Devlog</a></li>
+				<li><a href="/screenshots/">Screenshots</a></li>
+				<li><a href="/get-it/">Get it</a></li>
+			</ul>
+		</div>
+	</header>
+	<body id="body">
+		
+	<h1>Get Siplicity</h1>
+	<div><h2>Try it</h2><p><a href="https://sipli.city/releases/siplicity.msi" target="_blank">Download Siplicity for Windows (64-bit x64)</a></p><p>Siplicity can be downloaded and tested for free. A license is required to use the <em>Commit</em> function.</p><h2>Buy it</h2><p>An early access version of Siplicity is now available for purchase. The version one release is planned for early 2025.</p><p>Siplicity is licensed under the <a href="https://fcl.dev/" target="_blank">Fair Core License</a>. This means that users receive access to Siplicity’s source code and can modify the application and distribute those modifications for use by other licensed users. It also means that Siplicity versions automatically transition to Open Source (Apache 2.0) after two years.</p><p>Licenses are a one-time purchase, valid for two year’s worth of updates*, and don’t expire (i.e. you can continue to use Siplicity if you don’t renew, but won’t have access to the latest releases). Licenses are issued on a per-user basis.</p><a href="#" class="button" onclick="openCheckout(itemsList)">Buy Siplicity</a>
+<p>*<em>During the early access period, licensed users are entitled to three year’s worth of updates.</em></p><h2>Policies</h2><ul><li><a href="/policies/#privacy">Privacy policy</a></li><li><a href="/policies/#terms">Terms and conditions</a></li><li><a href="/policies/#refunds">Refunds</a></li></ul><h2>Get in touch</h2><p>Siplicity is developed by <a href="https://richardlehane.me" target="_blank">Richard Lehane</a>. If you’d like to discuss a use case, or have a question, please drop me a line at <a href="mailto:richard.lehane@gmail.com" target="_blank">richard.lehane@gmail.com</a>.</p></div>
 
-    <link rel="stylesheet" href="/css/main.css">
-
-</head>
-<body>
-  <header>
-    <header>
-    <div class="nav">
-        <ul>
-            <li><a href="http://localhost:1313/">Home</a></li>
-            
-            <li><a href="http://localhost:1313/devlog/">Devlog</a></li>
-            
-            
-            <li><a href="http://localhost:1313/screenshots/">Screenshots</a></li>
-            
-            
-            <li><a href="http://localhost:1313/get-it/">Get it</a></li>
-            
-        </ul>
-    </div>
-</header>
-  </header>
-  <main>
-    
-<h1 id="get-siplicity">Get Siplicity</h1>
-<h2 id="try-it">Try it</h2>
-<p><a href="/releases/siplicity.msi">Download Siplicity for Windows (64-bit x64)</a></p>
-<p>Siplicity can be downloaded and tested for free. A license is required to use the <em>Commit</em> function.</p>
-<h2 id="buy-it">Buy it</h2>
-<p>An early access version of Siplicity is now available for purchase. The version one release is planned for early 2025.</p>
-<p>Siplicity is licensed under the <a href="https://fcl.dev/">Fair Core License</a>. This means that users receive access to Siplicity&rsquo;s source code and can modify the application and distribute those modifications for use by other licensed users. It also means that Siplicity versions automatically transition to Open Source (Apache 2.0) after two years.</p>
-<p>Licenses are a one-time purchase, valid for two year&rsquo;s worth of updates<!-- raw HTML omitted -->*<!-- raw HTML omitted -->, and don&rsquo;t expire (i.e. you can continue to use Siplicity if you don&rsquo;t renew, but won&rsquo;t have access to the latest releases). Licenses are issued on a per-user basis.</p>
-<a href="#" class="button" onclick="openCheckout(itemsList)">Buy Siplicity</a>
-<p><!-- raw HTML omitted -->*<!-- raw HTML omitted --><em>During the early access period, licensed users are entitled to three year&rsquo;s worth of updates.</em></p>
-
-<h2><a href="http://localhost:1313/policies/">Policies</a></h2>
-<ul>
-    <li><a href="http://localhost:1313/policies//#privacy-policy">Privacy policy</a></li>
-    <li><a href="http://localhost:1313/policies//#terms-and-conditions">Terms and conditions</a></li>
-    <li><a href="http://localhost:1313/policies//#refunds">Refunds</a></li>
-</ul>
-
-<h2 id="get-in-touch">Get in touch</h2>
-<p>Siplicity is developed by <a href="https://richardlehane.me">Richard Lehane</a>. If you&rsquo;d like to discuss a use case, or have a question, please drop me a line at <a href="mailto:richard.lehane@gmail.com">richard.lehane@gmail.com</a>.</p>
-
-
-  </main>
-  <footer>
-    <footer></footer>
-  </footer>
-</body>
+	</body>
 </html>

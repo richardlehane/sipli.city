@@ -1,0 +1,42 @@
+---
+.title = "Get Siplicity",
+.date = @date("2024-10-04T12:00:00+10:00"),
+.author = "Richard Lehane",
+.layout = "get-it.shtml",
+.draft = false,
+---
+
+## Try it
+
+[Download Siplicity for Windows (64-bit x64)](https://sipli.city/releases/siplicity.msi)
+
+Siplicity can be downloaded and tested for free. A license is required to use the *Commit* function.
+
+## Buy it
+
+An early access version of Siplicity is now available for purchase. The version one release is planned for early 2025.
+
+Siplicity is licensed under the [Fair Core License](https://fcl.dev/). This means that users receive access to Siplicity's source code and can modify the application and distribute those modifications for use by other licensed users. It also means that Siplicity versions automatically transition to Open Source (Apache 2.0) after two years.
+
+Licenses are a one-time purchase, valid for two year's worth of updates*, and don't expire (i.e. you can continue to use Siplicity if you don't renew, but won't have access to the latest releases). Licenses are issued on a per-user basis. 
+
+```=html
+<a href="#" class="button" onclick="openCheckout(itemsList)">Buy Siplicity</a>
+```
+
+**During the early access period, licensed users are entitled to three year's worth of updates.*
+
+## Policies
+
+  - [Privacy policy](/policies#privacy)
+  - [Terms and conditions](/policies#terms)
+  - [Refunds](/policies#refunds)
+
+## Get in touch
+
+Siplicity is developed by [Richard Lehane](https://richardlehane.me). If you'd like to discuss a use case, or have a question, please drop me a line at [richard.lehane@gmail.com](mailto:richard.lehane@gmail.com).
+
+
+
+
+

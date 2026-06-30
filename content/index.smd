@@ -1,0 +1,30 @@
+---
+.title = "Siplicity",
+.date = @date("2024-08-07T12:00:00+10:00"),
+.author = "Richard Lehane",
+.layout = "page.shtml",
+.draft = false,
+---
+
+## Makes transferring digital files simple
+> Explore, select, arrange, describe, and package digital files for transfer.
+
+[](<$image.siteAsset('screencast.gif').alt('Screencast of Siplicity application')>)
+
+---
+
+## Features
+### Select and re-arrange
+Choose the files you want to transfer, edit structures, rename files, and commit your changes to disk. Work fearlessly in the knowledge that sources files are immutable, commits are copies, and nothing is written to disk before a commit.
+
+### Annotate
+Siplicity has an open metadata model that allows you to annotate digital files and folders with any information you need for your analysis or to power workflows. The [data entry pane]($link.page('screenshots').ref('data-entry-pane')) supports rapid data entry.
+
+### Take action
+Siplicity has a set of built-in actions that enrich your digital files with additional metadata. These include format identification (using [siegfried](https://itforarchivists.com/siegfried)), UUID minting, and checksum generation with a variety of algorithms.
+
+### Analyze and Review
+The [analysis pane](/screenshots#analysis-pane)) provides visualisations of file sizes, dates, and file extensions. Running identification or checksum actions produces additional reports on file formats and duplicates. Each analysis links to queries back to the workspace pane allowing you, for example, to quickly identify and remove zero-byte files or duplicates.
+
+### Package in standard formats
+Automatically package your output files in the [Bagit format](https://datatracker.ietf.org/doc/html/rfc8493). More output formats are on the way.

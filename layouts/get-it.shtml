@@ -1,0 +1,51 @@
+<extend template="base.shtml">
+<head id="head">
+	<script src="https://cdn.paddle.com/paddle/v2/paddle.js"></script>
+	<script type="text/javascript" :if="$site.host_url.contains('localhost').not()">
+		Paddle.Initialize({
+			token: 'live_69de63b790182d50ca89cc0b33f'
+		});
+	let itemsList = [
+		{
+			priceId: "pri_01jbpe9p5e40kvrbbvm840pkm3",
+			quantity: 1
+		}
+	];
+	function openCheckout(items) {
+		Paddle.Checkout.open({
+			settings: {
+				displayMode: "overlay",
+				theme: "light",
+				successUrl: "https://sipli.city/thank-you"
+			},
+			items: items,
+		});
+}
+	</script>
+	<script type="text/javascript" :if="$site.host_url.contains('localhost')">
+		Paddle.Environment.set("sandbox");
+		Paddle.Initialize({
+			token: 'test_ebcc55c606400628d2f99defb24'
+		});
+	let itemsList = [
+		{
+			priceId: "pri_01jbtmx2c5fg0ty3x0z9ae1vv2",
+			quantity: 1
+		}
+	];
+	function openCheckout(items) {
+		Paddle.Checkout.open({
+			settings: {
+				displayMode: "overlay",
+				theme: "light",
+				successUrl: "https://sipli.city/thank-you"
+			},
+			items: items,
+		});
+}
+	</script>
+</head>
+<body id="body">
+	<h1 :text="$page.title"></h1>
+	<div :html="$page.content()"></div>
+</body>

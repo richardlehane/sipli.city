@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head id="head">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title :text="$site.title"></title>
+		<meta name="description" content="Siplicity makes transferring digital files simple">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+		<link type="text/css" rel="stylesheet" href="$site.asset('style.css').link()">
+		<super>
+	</head>
+	<header>
+		<div class="nav">
+			<ul>
+				<li><a href="$site.link()">Home</a></li>
+				<li><a href="$site.page('devlog').link()">Devlog</a></li>
+				<li><a href="$site.page('screenshots').link()">Screenshots</a></li>
+				<li><a href="$site.page('get-it').link()">Get it</a></li>
+			</ul>
+		</div>
+	</header>
+	<body id="body">
+		<super>
+	</body>
+</html>
