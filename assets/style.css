@@ -64,10 +64,18 @@ p>a {
   color: #FF7F3E;
 }
 
+span.date {
+  color: #604CC3;
+}
+
 blockquote {
   font-size: 1.5em;
   margin: 0;
 
+}
+
+div.contents {
+  margin-bottom: 0.5rem;
 }
 
 div.nav>ul {

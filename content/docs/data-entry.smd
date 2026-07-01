@@ -1,0 +1,10 @@
+---
+.title = "Data entry",
+.date = @date("1990-01-01T00:00:00"),
+.author = "Richard Lehane",
+.layout = "doc.shtml",
+.draft = false,
+---
+### Some helpful advice
+
+Yada yada.

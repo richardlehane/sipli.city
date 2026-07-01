@@ -2,5 +2,7 @@
 <head id="head"></head>
 <body id="body">
 	<h1 class="title" :text="$page.title"></h1>
+	<span :text="$page.date.format('02 January 2006')" class="date"></span>
 	<div :html="$page.content()"></div>
+	<span><a href="/devlog">Read all devlog entries here</a></span>
 </body>

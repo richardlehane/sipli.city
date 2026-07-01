@@ -15,8 +15,11 @@
 		<div class="nav">
 			<ul>
 				<li><a href="/">Home</a></li>
-				<li><a href="/devlog/">Devlog</a></li>
 				<li><a href="/screenshots/">Screenshots</a></li>
+				<li><a href="/docs/">Documentation</a></li>
+				
+					<li><a href="/devlog/early-access/">Devlog</a></li>
+				
 				<li><a href="/get-it/">Get it</a></li>
 			</ul>
 		</div>
@@ -24,7 +27,9 @@
 	<body id="body">
 		
 	<h1 class="title">Actionable analytics</h1>
+	<span class="date">20 October 2024</span>
 	<div><p>This week I finished the first draft of Siplicity’s analysis pane.</p><p>Here’s how it looks:</p><p><img src="/devlog/analysis/analysis.gif" alt="Screencast of analysis pane" width="1254" height="703"></p><p>As soon as you add files to the to the workspace, an initial set of reports is automatically created, with visualisations for file sizes, dates modified, and file extensions.</p><p>Running actions over the files in your workspace can produce further reports:</p><ul><li>the siegfried action creates format ID, format class and mime-type reports</li><li>any of the checksum actions will generate a duplicate report.</li></ul><p>All of the reports can be used as the basis for queries to the worspace pane. So that, for example, you can more closely inspect files from a particular date range or of a particular format type.</p><p>This connection between the analysis and workspace panes can power workflows like:</p><ul><li>identifying and removing zero-byte files</li><li>selecting duplicate files for removal</li><li>blacklisting sets of file formats</li><li>whitelisting file formats for selection to the output pane.</li></ul><p>In other words, Siplicity’s analytics produce more than insights. They are actionable.</p></div>
+	<span><a href="/devlog">Read all devlog entries here</a></span>
 
 	</body>
 </html>

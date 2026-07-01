@@ -1,0 +1,9 @@
+---
+.title = "Siplicity documentation",
+.date = @date("1990-01-01T00:00:00"),
+.author = "Richard Lehane",
+.layout = "docs.shtml",
+.draft = false,
+---
+
+This is where the docs go.

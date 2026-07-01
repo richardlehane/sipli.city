@@ -15,8 +15,11 @@
 		<div class="nav">
 			<ul>
 				<li><a href="$site.link()">Home</a></li>
-				<li><a href="$site.page('devlog').link()">Devlog</a></li>
 				<li><a href="$site.page('screenshots').link()">Screenshots</a></li>
+				<li><a href="$site.page('docs').link()">Documentation</a></li>
+				<ctx :if="$site.page('devlog').subpages().first?()">
+					<li><a href="$if.link()">Devlog</a></li>
+				</ctx>
 				<li><a href="$site.page('get-it').link()">Get it</a></li>
 			</ul>
 		</div>
