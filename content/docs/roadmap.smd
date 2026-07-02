@@ -1,0 +1,53 @@
+---
+.title = "Roadmap",
+.date = @date("1990-01-01T00:00:00"),
+.author = "Richard Lehane",
+.layout = "doc.shtml",
+.draft = false,
+---
+
+*"There is a long road ahead yet,"* said Gandalf.
+
+*"But it is the last road,"* said Bilbo.
+
+## Platform
+
+- Cross-platform: signed, packaged builds for Windows, Mac OS and Linux
+- Multilingual support
+
+## Features
+
+- Session persistence (Save and load sessions)
+- Event annotations. E.g. explain filename change or file removal 
+- Export logged events as PREMIS metadata
+- Metadata reconciliation: i.e. expect that fields match (e.g. for fixity checking) or satisfy defined criteria (e.g. for bad filename detection)
+- Data entry: formulae
+- Data entry: copy down/ fill column.
+- Unarchiving/ decompression (inc. IMG, ISO, WARC, BAGIT, ZIP) of inputs
+- Archiving/ compression of outputs
+- Checklists/ Recipes/ playbooks - define multistep workflows.
+- Remote backend, local frontend
+- Remote storage connectors for import and export (S3, SharePoint)
+- Metadata extractors (exif)
+- Metadata embedding
+- Thumbnail creation
+- Text extraction
+- Metadata importing (e.g. from CSV)
+- Custom exports using templating language like mustache
+- PII and other classification features
+- Mint persistent identifiers e.g. ARK
+- Document relations: derivations, part of (e.g. thumbnail derivative of file, file extracted from zip)
+- Plugins/ call external tools: imagemagick, FFMPEG, Exiftool, Tika
+- Cryptographic signing (e.g. need for VERS)
+
+## Export formats
+
+- OCFL
+- METS
+- VERS VEO
+- EARK
+- Preservica OPEX
+- Rosetta PNX
+- RO Crate
+- Cinema Preservation Package (CPP)
+

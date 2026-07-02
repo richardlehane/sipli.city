@@ -151,3 +151,28 @@ a.button {
 a.button:hover {
   background-color: #d37f3e;
 }
+
+/* Container for the code block */
+pre:has(code) {
+  border: 1px solid #333333;
+  border-radius: 6px;
+  background-color: #FFFFFF;
+  padding: 16px;
+  margin: 20px 0;
+  overflow-x: auto;
+  /* Adds a horizontal scrollbar if code is too long */
+}
+
+/* Typography styles inside the block */
+code {
+  font-family: 'Fira Code', 'Courier New', Courier, monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333333;
+  direction: ltr;
+  text-align: left;
+  white-space: pre;
+  /* Essential to keep indentation intact */
+  word-spacing: normal;
+  word-break: normal;
+}

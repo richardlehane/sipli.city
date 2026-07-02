@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head id="head">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Siplicity</title>
+		<meta name="description" content="Siplicity makes transferring digital files simple">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+		<link type="text/css" rel="stylesheet" href="/style.css">
+		
+	</head>
+	<header>
+		<div class="nav">
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="/screenshots/">Screenshots</a></li>
+				<li><a href="/docs/">Documentation</a></li>
+				
+					<li><a href="/devlog/vocabularies/">Devlog</a></li>
+				
+				<li><a href="/get-it/">Get it</a></li>
+			</ul>
+		</div>
+	</header>
+	<body id="body">
+		
+	<h1 class="title">Custom vocabularies</h1>
+	<span class="date">02 July 2026</span>
+	<div><p>At the heart of Siplicity, there is a simple, but flexible, metadata model. Metadata, for files and folders, is stored as a tree of namespace/name/value nodes. Nodes can have children. Values are just strings.</p><p>There’s a special SCHEMA node in Siplicity that keeps track of the metadata terms being used in a particular session. There’s not much else special about it: it stores the schema in the same metadata structure described above, except without any values.</p><p>This looks like this:</p><pre><code>          ns:name
+            |
+  ---------------------
+  |         |         |
+ns:name  ns:name  ns:name
+            |         |
+       ----------     --------------------    
+       |         |    |          |       |
+    ns:name  ns:name  ns:name  ns:name  ns:name
+
+</code></pre><p>The SCHEMA node is updated automatically during a Siplicity session (e.g. if you run a checksum job, it might add the schema terms for checksum algorithm and checksum result). In the data entry pane, when you select fields to edit, you are selecting from the fields available on that SCHEMA node.</p><p>Over the past few months I’ve been working on a mechanism for end users to attach their own custom vocabulary terms to the SCHEMA node. To enable, for example, working with <a href="https://www.dublincore.org/specifications/dublin-core/" target="_blank">DC Terms</a> or the <a href="https://www.loc.gov/standards/premis/" target="_blank">PREMIS vocabulary</a>.</p><h2>TOML</h2><p>End users can now add custom vocabularies by encoding their schema into a <a href="https://toml.io/en/" target="_blank">TOML file</a>.</p><p>Here’s an example, showing the full complexity you can achieve:</p><pre><code>namespace = &quot;test&quot; // namespaces are inherited, can be overriden below
+name = &quot;root&quot; // name of root metadata node, if omitted, fields will sit at the top level of the schema
+fields = [
+    &quot;simple&quot;,
+    { name = &quot;parent&quot;, fields = [
+        &quot;simple child&quot;,
+        { name = &quot;another&quot;, namespace = &quot;distinct&quot;, fields = [
+            &quot;enough&quot;,
+        ] },
+    ] },
+]
+</code></pre><p>This translates to this tree of namespace/name pairs:</p><pre><code>          test:root
+            |
+  ------------------
+  |                |
+test:simple  test:parent
+                   |         
+       ------------- 
+       |           |
+test:simple child  distinct:another
+                   |
+                   distinct:enough 
+
+</code></pre><p>It’s a little dense, I know, but there’s a simplified form that you can use for a flat schema where all the terms sit in a single namespace:</p><pre><code>namespace = &quot;AGRkMS&quot;
+name = &quot;AGRkMS&quot;
+fields = [
+  &quot;Identifier&quot;,
+  &quot;Creator&quot;,
+  &quot;Date Created&quot;,
+  &quot;Title&quot;,
+  &quot;Protective Marking&quot;,
+  &quot;Disposal Class&quot;,
+  &quot;Rights&quot;,
+]
+</code></pre><h2>Settings</h2><p>Once you’ve created your TOML file, it needs to be saved within a “vocab” folder, within the “definitions” folder of your “siplicity” home directory.</p><p><img src="/file-tree.png" alt="screenshot of file tree" width="327" height="154"></p><p>On a Windows install, you can find the “siplicity” home directory within the hidden “AppData” directory, e.g.:</p><p><code>c:\Users\richardlehane\AppData\Local\siplicity</code></p><h3>Activation</h3><p>The next time you start Siplicity it will be loaded and the final step is to activate it. To do this, go into the “Definitions” tab of Siplicity’s settings menu, and activate the toggle for your vocabulary:</p><p><img src="/settings-activate.png" alt="screenshot of settings menu" width="528" height="386"></p><h2>Using your new terms</h2><p>Once that’s all done, you can start using your terms. When selecting fields for editing in the data entry pane, they will appear like this:</p><p><img src="/schema.png" alt="screenshot of schema menu" width="479" height="641"></p></div>
+	<span><a href="/devlog">Read all devlog entries here</a></span>
+
+	</body>
+</html>

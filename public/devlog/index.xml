@@ -5,7 +5,59 @@
     <description>Siplicity - Devlog</description>
     <generator>Zine -- https://zine-ssg.io</generator>
     <language>en-AU</language>
-    <lastBuildDate>Wed, 01 Jul 2026 14:25:39 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2026 06:13:10 +0000</lastBuildDate>
+    
+      <item>
+        <title>Custom vocabularies</title>
+        <description>&lt;p&gt;At the heart of Siplicity, there is a simple, but flexible, metadata model. Metadata, for files and folders, is stored as a tree of namespace/name/value nodes. Nodes can have children. Values are just strings.&lt;/p&gt;&lt;p&gt;There’s a special SCHEMA node in Siplicity that keeps track of the metadata terms being used in a particular session. There’s not much else special about it: it stores the schema in the same metadata structure described above, except without any values.&lt;/p&gt;&lt;p&gt;This looks like this:&lt;/p&gt;&lt;pre&gt;&lt;code&gt;          ns:name
+            |
+  ---------------------
+  |         |         |
+ns:name  ns:name  ns:name
+            |         |
+       ----------     --------------------    
+       |         |    |          |       |
+    ns:name  ns:name  ns:name  ns:name  ns:name
+
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The SCHEMA node is updated automatically during a Siplicity session (e.g. if you run a checksum job, it might add the schema terms for checksum algorithm and checksum result). In the data entry pane, when you select fields to edit, you are selecting from the fields available on that SCHEMA node.&lt;/p&gt;&lt;p&gt;Over the past few months I’ve been working on a mechanism for end users to attach their own custom vocabulary terms to the SCHEMA node. To enable, for example, working with &lt;a href=&quot;https://www.dublincore.org/specifications/dublin-core/&quot; target=&quot;_blank&quot;&gt;DC Terms&lt;/a&gt; or the &lt;a href=&quot;https://www.loc.gov/standards/premis/&quot; target=&quot;_blank&quot;&gt;PREMIS vocabulary&lt;/a&gt;.&lt;/p&gt;&lt;h2&gt;TOML&lt;/h2&gt;&lt;p&gt;End users can now add custom vocabularies by encoding their schema into a &lt;a href=&quot;https://toml.io/en/&quot; target=&quot;_blank&quot;&gt;TOML file&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Here’s an example, showing the full complexity you can achieve:&lt;/p&gt;&lt;pre&gt;&lt;code&gt;namespace = &amp;quot;test&amp;quot; // namespaces are inherited, can be overriden below
+name = &amp;quot;root&amp;quot; // name of root metadata node, if omitted, fields will sit at the top level of the schema
+fields = [
+    &amp;quot;simple&amp;quot;,
+    { name = &amp;quot;parent&amp;quot;, fields = [
+        &amp;quot;simple child&amp;quot;,
+        { name = &amp;quot;another&amp;quot;, namespace = &amp;quot;distinct&amp;quot;, fields = [
+            &amp;quot;enough&amp;quot;,
+        ] },
+    ] },
+]
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This translates to this tree of namespace/name pairs:&lt;/p&gt;&lt;pre&gt;&lt;code&gt;          test:root
+            |
+  ------------------
+  |                |
+test:simple  test:parent
+                   |         
+       ------------- 
+       |           |
+test:simple child  distinct:another
+                   |
+                   distinct:enough 
+
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;It’s a little dense, I know, but there’s a simplified form that you can use for a flat schema where all the terms sit in a single namespace:&lt;/p&gt;&lt;pre&gt;&lt;code&gt;namespace = &amp;quot;AGRkMS&amp;quot;
+name = &amp;quot;AGRkMS&amp;quot;
+fields = [
+  &amp;quot;Identifier&amp;quot;,
+  &amp;quot;Creator&amp;quot;,
+  &amp;quot;Date Created&amp;quot;,
+  &amp;quot;Title&amp;quot;,
+  &amp;quot;Protective Marking&amp;quot;,
+  &amp;quot;Disposal Class&amp;quot;,
+  &amp;quot;Rights&amp;quot;,
+]
+&lt;/code&gt;&lt;/pre&gt;&lt;h2&gt;Settings&lt;/h2&gt;&lt;p&gt;Once you’ve created your TOML file, it needs to be saved within a “vocab” folder, within the “definitions” folder of your “siplicity” home directory.&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://sipli.city/file-tree.png&quot; alt=&quot;screenshot of file tree&quot; width=&quot;327&quot; height=&quot;154&quot;&gt;&lt;/p&gt;&lt;p&gt;On a Windows install, you can find the “siplicity” home directory within the hidden “AppData” directory, e.g.:&lt;/p&gt;&lt;p&gt;&lt;code&gt;c:\Users\richardlehane\AppData\Local\siplicity&lt;/code&gt;&lt;/p&gt;&lt;h3&gt;Activation&lt;/h3&gt;&lt;p&gt;The next time you start Siplicity it will be loaded and the final step is to activate it. To do this, go into the “Definitions” tab of Siplicity’s settings menu, and activate the toggle for your vocabulary:&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://sipli.city/settings-activate.png&quot; alt=&quot;screenshot of settings menu&quot; width=&quot;528&quot; height=&quot;386&quot;&gt;&lt;/p&gt;&lt;h2&gt;Using your new terms&lt;/h2&gt;&lt;p&gt;Once that’s all done, you can start using your terms. When selecting fields for editing in the data entry pane, they will appear like this:&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://sipli.city/schema.png&quot; alt=&quot;screenshot of schema menu&quot; width=&quot;479&quot; height=&quot;641&quot;&gt;&lt;/p&gt;</description>
+        <link>https://sipli.city/devlog/vocabularies/</link>
+        <pubDate>Thu, 02 Jul 2026 01:00:00 +0000</pubDate>
+        <guid>https://sipli.city/devlog/vocabularies/</guid>
+      </item>
     
       <item>
         <title>Siplicity available in Early Access</title>

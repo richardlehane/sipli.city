@@ -2,8 +2,14 @@
 .title = "Siplicity documentation",
 .date = @date("1990-01-01T00:00:00"),
 .author = "Richard Lehane",
-.layout = "docs.shtml",
+.layout = "page.shtml",
 .draft = false,
 ---
 
-This is where the docs go.
+## Contents
+
+  - [Data entry](./data-entry)
+  - [Settings](./settings)
+    - [Activating definitions](./settings#definitions)
+    - [Updating your license](./settings#definitions)
+  - [Roadmap](./roadmap)
