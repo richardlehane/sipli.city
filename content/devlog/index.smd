@@ -1,14 +1,12 @@
 ---
 .title = "All devlog entries",
-.date = @date("1990-01-01T00:00:00"),
-.author = "Richard Lehane",
+.date = .date("1990-01-01T00:00:00"),
 .layout = "devlog-archive.shtml",
 .alternatives = [{
-    .name = "rss",
-    .layout = "devlog.xml",
-    .output = "index.xml",
+    "name": "rss",
+    "layout": "devlog.xml",
+    "output": "index.xml",
 }],
-.draft = false,
 ---
 
 The devlog is also available as an [RSS feed]($link.alternative('rss')).

@@ -1,9 +1,7 @@
 ---
 .title = "Actionable analytics",
-.date = @date("2024-10-20T10:00:00+10:00"),
-.author = "Richard Lehane",
+.date = .date("2024-10-20T10:00:00+10:00"),
 .layout = "devlog.shtml",
-.draft = false,
 ---
 
 This week I finished the first draft of Siplicity's analysis pane.

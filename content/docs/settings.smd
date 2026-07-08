@@ -1,10 +1,8 @@
 ---
 .title = "Settings",
 .description = "",
-.date = @date("1990-01-01T00:00:00"),
-.author = "Richard Lehane",
+.date = .date("1990-01-01T00:00:00"),
 .layout = "doc.shtml",
-.draft = false,
 ---
 
 The settings menu is accessed via the "cog" icon at the lower left hand corner of the Siplicity screen.

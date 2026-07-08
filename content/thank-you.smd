@@ -1,9 +1,7 @@
 ---
 .title = "Thank you!",
-.date = @date("2024-11-04T09:00:00+10:00"),
-.author = "Richard Lehane",
+.date = .date("2024-11-04T09:00:00+10:00"),
 .layout = "page.shtml",
-.draft = false,
 ---
 
 Thank you for purchasing a Siplicity license.

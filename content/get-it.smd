@@ -1,9 +1,7 @@
 ---
 .title = "Get Siplicity",
-.date = @date("2024-10-04T12:00:00+10:00"),
-.author = "Richard Lehane",
+.date = .date("2024-10-04T12:00:00+10:00"),
 .layout = "get-it.shtml",
-.draft = false,
 ---
 
 ## Try it

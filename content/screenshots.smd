@@ -1,9 +1,7 @@
 ---
 .title = "Screenshots",
-.date = @date("2024-10-04T12:00:00+10:00"),
-.author = "Richard Lehane",
+.date = .date("2024-10-04T12:00:00+10:00"),
 .layout = "page.shtml",
-.draft = false,
 ---
 
 ## Workspace pane

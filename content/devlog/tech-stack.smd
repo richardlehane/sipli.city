@@ -1,9 +1,7 @@
 ---
 .title = "Tech stack overview",
-.date = @date("2024-09-15T12:00:00+10:00"),
-.author = "Richard Lehane",
+.date = .date("2024-09-15T12:00:00+10:00"),
 .layout = "devlog.shtml",
-.draft = false,
 ---
 
 Siplicity has a backend written in [Go](https://golang.org). I chose Go mainly because I am familiar with it but can justify the choice on the basis that it is cross-platform, reasonably performant, and enables native integration with [Siegfried](https://www.itforarchivists.com/siegfried).

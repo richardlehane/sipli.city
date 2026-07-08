@@ -1,9 +1,7 @@
 ---
 .title = "Bake off - second attempt in the kitchen!",
-.date = @date("2024-10-03T10:00:00+10:00"),
-.author = "Richard Lehane",
+.date = .date("2024-10-03T10:00:00+10:00"),
 .layout = "devlog.shtml",
-.draft = false,
 ---
 
 Two weeks ago I gave a first demonstration of Siplicity for the [iPRES conference](https://ipres2024.pubpub.org/) (the "bake off" stream). Many thanks to Micky, Dries, and the rest of the conference team for including me in the program.

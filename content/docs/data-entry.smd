@@ -1,9 +1,7 @@
 ---
 .title = "Data entry",
-.date = @date("1990-01-01T00:00:00"),
-.author = "Richard Lehane",
+.date = .date("1990-01-01T00:00:00"),
 .layout = "doc.shtml",
-.draft = false,
 ---
 
 The data entry pane is where you can edit or update metadata in Siplicity.

@@ -1,9 +1,7 @@
 ---
 .title = "Siplicity documentation",
-.date = @date("1990-01-01T00:00:00"),
-.author = "Richard Lehane",
+.date = .date("1990-01-01T00:00:00"),
 .layout = "page.shtml",
-.draft = false,
 ---
 
 *“Elves seldom give unguarded advice, for advice is a dangerous gift, even from the wise to the wise, and all courses may run ill.”*

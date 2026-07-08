@@ -1,9 +1,7 @@
 ---
 .title = "Siplicity available in Early Access",
-.date = @date("2024-11-07T08:00:00+10:00"),
-.author = "Richard Lehane",
+.date = .date("2024-11-07T08:00:00+10:00"),
 .layout = "devlog.shtml",
-.draft = false,
 ---
 What better day than [World Digital Preservation Day](https://www.dpconline.org/events/world-digital-preservation-day) to announce that [Siplicity](/) is now is now available to [download, try, and buy in early access](/get-it)!
 

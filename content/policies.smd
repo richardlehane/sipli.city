@@ -1,9 +1,7 @@
 ---
 .title = "Policies",
-.date = @date("2024-10-04T12:00:00+10:00"),
-.author = "Richard Lehane",
+.date = .date("2024-10-04T12:00:00+10:00"),
 .layout = "page.shtml",
-.draft = false,
 ---
 
 Siplicity is developed by [Richard Lehane](https://richardlehane.me). My Australian Business Number is [ABN 82 401 614 058](https://abr.business.gov.au/ABN/View?id=82401614058).
