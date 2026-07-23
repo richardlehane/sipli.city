@@ -27,7 +27,7 @@ The SCHEMA node is updated automatically during a Siplicity session (e.g. if you
 
 Over the past few months I've been working on a mechanism for end users to attach their own custom vocabulary terms to the SCHEMA node. To enable, for example, working with [DC Terms](https://www.dublincore.org/specifications/dublin-core/) or the [PREMIS vocabulary](https://www.loc.gov/standards/premis/).
 
-## TOML
+# TOML
 
 End users can now add custom vocabularies by encoding their schema into a [TOML file](https://toml.io/en/).
 
@@ -79,7 +79,7 @@ fields = [
 ]
 ```
 
-## Settings
+# Settings
 
 Once you've created your TOML file, it needs to be saved within a "vocab" folder, within the "definitions" folder of your "siplicity" home directory.
 
@@ -89,13 +89,13 @@ On a Windows install, you can find the "siplicity" home directory within the hid
 
 `c:\Users\richardlehane\AppData\Local\siplicity`
 
-### Activation
+## Activation
 
 The next time you start Siplicity it will be loaded and the final step is to activate it. To do this, go into the "Definitions" tab of Siplicity's settings menu, and activate the toggle for your vocabulary:
 
 ![](/settings-activate.png "screenshot of settings menu") 
 
-## Using your new terms
+# Using your new terms
 
 Once that's all done, you can start using your terms. When selecting fields for editing in the data entry pane, they will appear like this:
 

@@ -1,7 +1,7 @@
 <extend template="base.shtml">
 <head id="head">
 	<script src="https://cdn.paddle.com/paddle/v2/paddle.js"></script>
-	<script type="text/javascript" :if="$site.host_url.contains('localhost').not()">
+	<script type="text/javascript" :if="$build.development.not()">
 		Paddle.Initialize({
 			token: 'live_69de63b790182d50ca89cc0b33f'
 		});
@@ -22,7 +22,7 @@
 		});
 }
 	</script>
-	<script type="text/javascript" :if="$site.host_url.contains('localhost')">
+	<script type="text/javascript" :if="$build.development">
 		Paddle.Environment.set("sandbox");
 		Paddle.Initialize({
 			token: 'test_ebcc55c606400628d2f99defb24'

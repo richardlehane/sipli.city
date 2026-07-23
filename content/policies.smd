@@ -13,13 +13,13 @@ If you have any questions about the following policies, please contact me at [ri
   - [Refunds](#refunds)
 
 
-## [Privacy Policy]($section.id('privacy'))
+# [Privacy Policy]($section.id('privacy'))
 
 4 October, 2024
 
 This Privacy Policy identifies the personal information collected about you and why, describes what is done with that personal information, how it is used and disclosed, and your rights to access and request corrections or deletion of information.
 
-### Scope of this Privacy Policy
+## Scope of this Privacy Policy
 
 This Privacy Policy applies to the Siplicity application, this website (https://sipli.city), and customer interactions (e.g. email enquiries, support tickets). 
 
@@ -27,7 +27,7 @@ The Privacy Policy does not apply to third party services.
 
 This Privacy Policy applies to personal information, which is defined as any information relating to an identified or identifiable natural person.
 
-### Information collected and why
+## Information collected and why
 
 The following personal information may be collected and stored:
 
@@ -36,13 +36,13 @@ The following personal information may be collected and stored:
 
 This information is collected in order to provide the Siplicity application and communicate with customers.
 
-### Payment information
+## Payment information
 
 This website's purchase functionality is provided by a third-party payment service provider. The payment service provider is the Merchants of Record for all orders.
 
 Payment information (including name, location, contact details, and billing information) provided by you may be stored and processed by the payment service provider. All such information is subject to their privacy policy. This information is used by the payment service provider for processing orders, fraud prevention, and issuing refunds.
 
-### Use and disclosure of personal information
+## Use and disclosure of personal information
 
 Personal information is only disclosed to third parties for the purpose of providing the Siplicity application, for example processing orders and refunds.
 
@@ -50,15 +50,15 @@ Personal information is not shared with third parties for use in their marketing
 
 Marketing and product information relating to Siplicity (e.g. information about product updates) may be sent to you, but only with your prior consent.
 
-### Accessing, correcting, and requests to delete personal information
+## Accessing, correcting, and requests to delete personal information
 
 If you would like to access personal information stored about you, or request correction or deletion of that personal information, please email richard.lehane@gmail.com.
 
-## [Terms and Conditions]($section.id('terms'))
+# [Terms and Conditions]($section.id('terms'))
 
 Siplicity is licensed under the [Fair Core License](https://fcl.dev/). This means that users receive access to Siplicity's source code and can modify the application and distribute those modifications for use by other licensed users. It also means that Siplicity versions automatically transition to Open Source (Apache 2.0) after two years. Licenses are a one-time purchase, valid for two year's worth of updates, and don't expire (i.e. you can continue to use Siplicity if you don't renew, but won't have access to the latest releases). Licenses are issued on a per-user basis. *Siplicity is currently in an early access period and early access supporters are entitled to three year's worth of updates.*
 
-### License
+## License
 
 ```
 # Fair Core License, Version 1.0, ALv2 Future License
@@ -183,7 +183,7 @@ CONDITIONS OF ANY KIND, either express or implied. See the License for the
 specific language governing permissions and limitations under the License.
 ```
 
-## [Refunds]($section.id('refunds'))
+# [Refunds]($section.id('refunds'))
 
 If you are not satisfied with Siplicity, please contact [richard.lehane@gmail.com](mailto:richard.lehane@gmail.com) within 30 days of your purchase to receive a refund. 
 

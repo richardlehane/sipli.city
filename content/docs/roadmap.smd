@@ -8,12 +8,12 @@
 
 *"But it is the last road,"* said Bilbo.
 
-## Platform
+# Platform
 
 - Cross-platform: signed, packaged builds for Windows, Mac OS and Linux
 - Multilingual support
 
-## Features
+# Features
 
 - Session persistence (Save and load sessions)
 - Event annotations. E.g. explain filename change or file removal 
@@ -38,7 +38,7 @@
 - Plugins/ call external tools: imagemagick, FFMPEG, Exiftool, Tika
 - Cryptographic signing (e.g. need for VERS)
 
-## Export formats
+# Export formats
 
 - OCFL
 - METS

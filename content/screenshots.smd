@@ -4,25 +4,25 @@
 .layout = "page.shtml",
 ---
 
-## Workspace pane
+# Workspace pane
 
 The workspace pane is where you select, structure, describe digital content and export to your preferred targets.
 
 ![](/screenshot1.png "Screenshot of Siplicity application, showing the workspace pane's tree view")
 
-## [Details view]($section.id('details-view'))
+# [Details view]($section.id('details-view'))
 
 Within the workspace pane you can select and view the details for particular records. Siplicity's metadata model allows for the capture of arbitrarily deeply nested metadata structures. This means, for example, that you can capture the time a checksum was performed, along with the algorithm.
 
 ![](/screenshot2.png "Screenshot of Siplicity application, showing the details view for a record")
 
-## [Analysis pane]($section.id('analysis-pane'))
+# [Analysis pane]($section.id('analysis-pane'))
 
 The analysis pane provides visualisations of file sizes, dates, and file extensions. Running actions such as siegfried identification or checksums produces additional reports on file formats and duplicates. Each analysis links to queries back to the workspace pane allowing you, for example, to quickly identify and remove zero-byte files or duplicates.
 
 ![](/screenshot3.png "Screenshot of Siplicity application, showing the analysis pane")
 
-## [Data entry pane]($section.id('data-entry-pane'))
+# [Data entry pane]($section.id('data-entry-pane'))
 
 Bulk edit file and folder metadata in the data entry pane. Select any number of fields to edit. Filter by graph, record type and queries.
 

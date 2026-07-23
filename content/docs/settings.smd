@@ -11,23 +11,23 @@ The settings menu has the following tabs:
   - [Defintions](#definitions) - for activating and deactivating definitions
   - [License](#license) - for updating your license key.
 
-## [Activating definitions]($section.id("definitions"))
+# [Activating definitions]($section.id("definitions"))
 
 Siplicity supports end user customisation via TOML definitions files for custom vocabularies, table layouts, and outputs.
 
-### Definitions folder
+## Definitions folder
 
 The definitions files sit within folders within a "definitions" folder of your "siplicity" home directory.
 
 ![](/file-tree.png "screenshot of file tree")
 
-### Home directory
+## Home directory
 
 On a Windows install, you can find the "siplicity" home directory within the hidden "AppData" directory, e.g.:
 
 `c:\Users\richardlehane\AppData\Local\siplicity`
 
-### Definitions menu
+## Definitions menu
 
 You can control the visibility of custom definitions via the "Definitions" tab of the settings menu.
 
@@ -37,7 +37,7 @@ Toggling definitions in this menu causes them to be activated or de-activated. E
 
 Changes made in this menu are persisted between Siplicity sessions.
 
-## [License keys]($section.id("license"))
+# [License keys]($section.id("license"))
 
 After [purchasing Siplicity](/get-it), you will receive an email with a license key and license file.
 

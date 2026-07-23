@@ -6,7 +6,7 @@
 
 The data entry pane is where you can edit or update metadata in Siplicity.
 
-## [Filter]($section.id("filter"))
+# [Filter]($section.id("filter"))
 
 Select the "Filter" command to choose the graph and nodes for editing.
 
