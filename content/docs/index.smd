@@ -7,9 +7,12 @@
 *“I wisely started with a map”* -- JRR Tolkein
 
 # Contents
-
-  - [Data entry](./data-entry)
-  - [Settings](./settings)
-    - [Activating definitions](./settings#definitions)
+  
+  - Get started
     - [Updating your license](./settings#license)
+  - How to
+  - Reference
+    - [Data entry](./data-entry)
+    - [Settings](./settings)
+    - [Activating definitions](./settings#definitions)
   - [Roadmap](./roadmap)
