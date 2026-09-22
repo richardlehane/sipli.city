@@ -1,0 +1,55 @@
+---
+.title = "iPRES Bake Off 2026",
+.date = .date("2026-09-22T12:00:00+10:00"),
+.layout = "devlog.shtml",
+---
+
+For this year's iPRES bake off, I'll be cooking from a recipe.
+
+*This recipe*:
+
+```
+steps = [
+    { label = "Make a witty introduction", help = "A joke may help. E.g. raise your hand if you find transferring digital files is complex. I can't see your hands, as I am presenting remotely, but I will assume they are all up."},
+    { label = "Add iPRES 2026 corpus to workspace" },
+    { label = "Give a brief overview of Siplicity", help = "Siplicity is a tool for digital triage. The Siplicity workspace allows you to add files, enrich them with metadata, select for transfer, rearrange and describe with metadata outputs, and package. The data entry and analysis panes support your workflows by allowing you to analyse and enrich your files.", depends = true},
+    { label = "Introduce the checklist feature", help = "Siplicity's goal is to make digital transfers simple. But as I've been adding features to it over the last two years, I've found it getting more and more complex. Digital preservation workflows are full of technical choices, technical jargon, and steps that implicitly depend on other steps." },
+    { label = "Remove non-MP4 and non-JSON files", help = "In the Analysis pane, select JSON and MP4 extensions. Move selection to Output. Remove Input tree. Move Output back to Input" },
+    { label = "Calculate SHA256 hashes", depends = true, action = "sha256" },
+    { label = "Calculate SHA512 hashes", action = "sha512" },
+    { label = "View metadata for an example file", depends = true },
+    { label = "Demonstrate manual data entry" , help = "For our OPEX metadata, we need the Title and Description fields to be populated. We can do this manually" },
+    { label = "Narrow selection to JSON files" },
+    { label = "Demonstrate metadata import" , depends = true },
+    { label = "Remove the JSON files" },
+    { label = "Make sure I am not running overtime", help = "I may need to race through the last steps" },
+    { label = "Move selection to Output pane" },
+    { label = "Add top level metadata for Bagit" },
+    { label = "Restructure output (flatten all)" },
+    { label = "Create OPEX metadata", depends = true, action = "opex"},
+    { label = "Apply Bagit packaging", depends = true, action = "bagit"},
+    { label = "Set output directory" },
+    { label = "Commit", depends = true, action = "commit"},
+    { label = "Finish strong! (And plug the website: https://sipli.city)", help = "Wrap the whole presentation up in a convincing way that makes everyone want to go out and try Siplicity"}
+]
+```
+
+Within Siplicity, it looks like this:
+
+[](<$image.asset('ipres-checklist.png').alt('Screenshot of checklist pane')>)
+
+# Checklists
+
+Siplicity's new checklist feature is motivated by the goal of keeping Siplicity simple to use, even as more features, and technical choices, are added.
+
+Checklists can be used to:
+
+- guide users with step-by-step instructions
+- formalise distinct workflows for different format and collection types
+- ensure consistency when performing complex transfers.
+
+Users can write their own checklists using the text format above. Steps have four components: a label (defines the step), optional help text, a "depends" boolean (which prevents a step being actioned until steps above are all complete), and an optional action (if a step can be automatically actioned by Siplicity e.g. checksumming).
+
+# Bake off entry
+
+You can view a pre-recording of my bake off here: [ipres-2026.mp4](https://sipli.city/media/ipres-2026.mp4)

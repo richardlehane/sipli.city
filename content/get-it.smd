@@ -14,9 +14,9 @@ Siplicity can be downloaded and tested for free. A license is required to use th
 
 An early access version* of Siplicity is now available for purchase.
 
-Siplicity is licensed under the [Fair Core License](https://fcl.dev/). This means that users receive access to Siplicity's source code and can modify the application and distribute those modifications for use by other licensed users. It also means that [Siplicity versions automatically transition to Open Source (Apache 2.0) after two years](https://github.com/sipli-city/siplicity-foss).
+Siplicity is licensed under the [Fair Core License](https://fcl.dev/). This means that users receive access to Siplicity's source code and can modify the application and distribute those modifications for use by other licensed users. It also means that [Siplicity automatically transitions to Open Source (Apache 2.0) after two years](https://github.com/sipli-city/siplicity-foss).
 
-Licenses are a one-time purchase, valid for two year's worth of updates*, and don't expire (i.e. you can continue to use Siplicity if you don't renew, but won't have access to the latest releases). Licenses are issued on a per-user basis. 
+Licenses are a one-time purchase, valid for two years' worth of updates*, and don't expire (i.e. you can continue to use Siplicity if you don't renew, but won't have access to the latest releases). Licenses are issued on a per-user basis. 
 
 ```=html
 <a href="#" class="button" onclick="openCheckout(itemsList)">Buy Siplicity</a>
