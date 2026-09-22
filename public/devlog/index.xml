@@ -5,7 +5,7 @@
     <description>Siplicity - Devlog</description>
     <generator>Zine -- https://zine-ssg.io</generator>
     <language>en-AU</language>
-    <lastBuildDate>Tue, 22 Sep 2026 09:41:08 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 13:16:47 +0000</lastBuildDate>
     
       <item>
         <title>iPRES Bake Off 2026</title>
@@ -32,7 +32,7 @@
     { label = &amp;quot;Commit&amp;quot;, depends = true, action = &amp;quot;commit&amp;quot;},
     { label = &amp;quot;Finish strong! (And plug the website: https://sipli.city)&amp;quot;, help = &amp;quot;Wrap the whole presentation up in a convincing way that makes everyone want to go out and try Siplicity&amp;quot;}
 ]
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Within Siplicity, it looks like this:&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://sipli.city/devlog/ipres-2026/ipres-checklist.png&quot; alt=&quot;Screenshot of checklist pane&quot; width=&quot;672&quot; height=&quot;613&quot;&gt;&lt;/p&gt;&lt;h2&gt;Checklists&lt;/h2&gt;&lt;p&gt;Siplicity’s new checklist feature is motivated by the goal of keeping Siplicity simple to use, even as more features, and technical choices, are added.&lt;/p&gt;&lt;p&gt;Checklists can be used to:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;guide users with step-by-step instructions&lt;/li&gt;&lt;li&gt;formalise distinct workflows for different format and collection types&lt;/li&gt;&lt;li&gt;ensure consistency when performing complex transfers.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Users can write their own checklists using the text format above. Steps have four components: a label (defines the step), optional help text, a “depends” boolean (which prevents a step being actioned until steps above are all complete), and an optional action (if a step can be automatically actioned by Siplicity e.g. checksumming).&lt;/p&gt;&lt;h2&gt;Bake off entry&lt;/h2&gt;&lt;p&gt;You can view a pre-recording of my bake off here: &lt;a href=&quot;https://sipli.city/media/ipres-2026.mp4&quot;&gt;ipres-2026.mp4&lt;/a&gt;&lt;/p&gt;</description>
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Within Siplicity, it looks like this:&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://sipli.city/devlog/ipres-2026/ipres-checklist.png&quot; alt=&quot;Screenshot of checklist pane&quot; width=&quot;672&quot; height=&quot;613&quot;&gt;&lt;/p&gt;&lt;h2&gt;Checklists&lt;/h2&gt;&lt;p&gt;Siplicity’s new checklist feature is motivated by the goal of keeping Siplicity simple to use, even as more features, and technical choices, are added.&lt;/p&gt;&lt;p&gt;Checklists can be used to:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;guide users with step-by-step instructions&lt;/li&gt;&lt;li&gt;formalise distinct workflows for different format and collection types&lt;/li&gt;&lt;li&gt;ensure consistency when performing complex transfers.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Users can write their own checklists using the text format above. Steps have four components: a label (defines the step), optional help text, a “depends” boolean (which prevents a step being actioned until steps above are all complete), and an optional action (if a step can be automatically actioned by Siplicity e.g. checksumming).&lt;/p&gt;&lt;h2&gt;Bake off entry&lt;/h2&gt;&lt;p&gt;There’s a pre-recording of my bake off here: &lt;a href=&quot;https://sipli.city/media/ipres-2026.mp4&quot;&gt;ipres-2026.mp4&lt;/a&gt; [10 mins, 50mb]&lt;/p&gt;</description>
         <link>https://sipli.city/devlog/ipres-2026/</link>
         <pubDate>Tue, 22 Sep 2026 02:00:00 +0000</pubDate>
         <guid>https://sipli.city/devlog/ipres-2026/</guid>
