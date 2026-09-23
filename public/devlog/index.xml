@@ -5,7 +5,23 @@
     <description>Siplicity - Devlog</description>
     <generator>Zine -- https://zine-ssg.io</generator>
     <language>en-AU</language>
-    <lastBuildDate>Tue, 22 Sep 2026 13:16:47 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 11:45:11 +0000</lastBuildDate>
+    
+      <item>
+        <title>Siplicity FOSS</title>
+        <description>&lt;p&gt;Siplicity is licensed under the &lt;a href=&quot;https://fcl.dev/&quot;&gt;Fair Core License&lt;/a&gt;. This means that licensed users receive access to Siplicity’s source code and can modify the application and distribute those modifications for use by other licensed users.&lt;/p&gt;&lt;p&gt;It also means that Siplicity’s code automatically transitions to open source (Apache 2.0) after two years.&lt;/p&gt;&lt;p&gt;This week marks the second anniversary of Siplicity’s first commits (which coincided with a very early demo I gave during the iPRES 2024 conference) and those commits are now open source.&lt;/p&gt;&lt;p&gt;I’m publishing this code at &lt;a href=&quot;https://github.com/sipli-city/siplicity-foss&quot;&gt;https://github.com/sipli-city/siplicity-foss&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;The siplicity-foss repository is automatically synced with the main Siplicity repository, publishing two year old changes from the main branch using Github actions.&lt;/p&gt;&lt;h2&gt;Automatic syncing&lt;/h2&gt;&lt;p&gt;The sync process is quite simple. In Siplicity’s main repository I have a Github workflow that runs daily, checks for the latest commit after the two year embargo, and then merges it to a “siplicity-foss” branch if there are new commits.&lt;/p&gt;&lt;p&gt;The guts of this workflow are:&lt;/p&gt;&lt;pre&gt;&lt;code&gt;target_commit=$(git rev-list -n 1 --before=&amp;quot;729 days ago&amp;quot; main)
+latest_merged=$(git rev-parse siplicity-foss)
+if [[ -z &amp;quot;$target_commit&amp;quot; || &amp;quot;$target_commit&amp;quot; == &amp;quot;$latest_merged&amp;quot; ]]; then 
+  echo &amp;quot;Nothing to commit today&amp;quot;
+  exit 0  
+fi
+git checkout siplicity-foss
+git merge $target_commit
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;There’s another Github workflow that runs daily in the siplicity-foss repository. It is even simpler and just tries to merge the “siplicity-foss” branch into its own main branch.&lt;/p&gt;&lt;p&gt;You can view this workflow here: &lt;a href=&quot;https://github.com/sipli-city/siplicity-foss/blob/main/.github/workflows/fetch-changes.yml&quot;&gt;https://github.com/sipli-city/siplicity-foss/blob/main/.github/workflows/fetch-changes.yml&lt;/a&gt;.&lt;/p&gt;&lt;h2&gt;Rationale for all of this&lt;/h2&gt;&lt;p&gt;I’ve gone with this licensing model for a few reasons:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;to try to find a balance between compensation for me, and freedom for you&lt;/li&gt;&lt;li&gt;to incentivise me to keep making Siplicity better, and not rent seek on legacy code&lt;/li&gt;&lt;li&gt;to reduce the ‘bus factor’ … in the worst case, it’s all going to be open source in a couple of years.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;It’s also a bit of an experiment. To see if this sort of model is viable for sustaining &lt;em&gt;open-ish&lt;/em&gt; software for the digital preservation community.&lt;/p&gt;&lt;p&gt;We’ll see!&lt;/p&gt;</description>
+        <link>https://sipli.city/devlog/siplicity-foss/</link>
+        <pubDate>Wed, 23 Sep 2026 02:00:00 +0000</pubDate>
+        <guid>https://sipli.city/devlog/siplicity-foss/</guid>
+      </item>
     
       <item>
         <title>iPRES Bake Off 2026</title>

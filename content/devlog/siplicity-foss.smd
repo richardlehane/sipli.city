@@ -1,0 +1,49 @@
+---
+.title = "Siplicity FOSS",
+.date = .date("2026-09-23T12:00:00+10:00"),
+.layout = "devlog.shtml",
+---
+
+Siplicity is licensed under the [Fair Core License](https://fcl.dev/). This means that licensed users receive access to Siplicity's source code and can modify the application and distribute those modifications for use by other licensed users.
+
+It also means that Siplicity's code automatically transitions to open source (Apache 2.0) after two years.
+
+This week marks the second anniversary of Siplicity's first commits (which coincided with a very early demo I gave during the iPRES 2024 conference) and those commits are now open source.
+
+I'm publishing this code at [https://github.com/sipli-city/siplicity-foss](https://github.com/sipli-city/siplicity-foss).
+
+The siplicity-foss repository is automatically synced with the main Siplicity repository, publishing two year old changes from the main branch using Github actions.
+
+# Automatic syncing
+
+The sync process is quite simple. In Siplicity's main repository I have a Github workflow that runs daily, checks for the latest commit after the two year embargo, and then merges it to a "siplicity-foss" branch if there are new commits.
+
+The guts of this workflow are:
+
+```
+target_commit=$(git rev-list -n 1 --before="729 days ago" main)
+latest_merged=$(git rev-parse siplicity-foss)
+if [[ -z "$target_commit" || "$target_commit" == "$latest_merged" ]]; then 
+  echo "Nothing to commit today"
+  exit 0  
+fi
+git checkout siplicity-foss
+git merge $target_commit
+```
+
+There's another Github workflow that runs daily in the siplicity-foss repository. It is even simpler and just tries to merge the "siplicity-foss" branch into its own main branch.
+
+You can view this workflow here: [https://github.com/sipli-city/siplicity-foss/blob/main/.github/workflows/fetch-changes.yml](https://github.com/sipli-city/siplicity-foss/blob/main/.github/workflows/fetch-changes.yml).
+
+# Rationale for all of this
+
+I've gone with this licensing model for a few reasons:
+
+- to try to find a balance between compensation for me, and freedom for you
+- to incentivise me to keep making Siplicity better, and not rent seek on legacy code
+- to reduce the 'bus factor' ... in the worst case, it's all going to be open source in a couple of years.
+
+It's also a bit of an experiment. To see if this sort of model is viable for sustaining *open-ish* software for the digital preservation community.
+
+We'll see!
+

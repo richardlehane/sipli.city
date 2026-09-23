@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head id="head">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Siplicity</title>
+		<meta name="description" content="Siplicity makes transferring digital files simple">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+		<link type="text/css" rel="stylesheet" href="/style.css">
+		
+	</head>
+	<body id="body">
+		<header>
+			<div class="nav">
+				<ul>
+					<li><a href="/">Home</a></li>
+					<li><a href="/screenshots/">Screenshots</a></li>
+					<li><a href="/docs/">Documentation</a></li>
+					
+						<li><a href="/devlog/siplicity-foss/">Devlog</a></li>
+					
+					<li><a href="/get-it/">Get it</a></li>
+				</ul>
+			</div>
+		</header>
+		
+	<h1 class="title">Siplicity FOSS</h1>
+	<span class="date">23 September 2026</span>
+	<div><p>Siplicity is licensed under the <a href="https://fcl.dev/">Fair Core License</a>. This means that licensed users receive access to Siplicity’s source code and can modify the application and distribute those modifications for use by other licensed users.</p><p>It also means that Siplicity’s code automatically transitions to open source (Apache 2.0) after two years.</p><p>This week marks the second anniversary of Siplicity’s first commits (which coincided with a very early demo I gave during the iPRES 2024 conference) and those commits are now open source.</p><p>I’m publishing this code at <a href="https://github.com/sipli-city/siplicity-foss">https://github.com/sipli-city/siplicity-foss</a>.</p><p>The siplicity-foss repository is automatically synced with the main Siplicity repository, publishing two year old changes from the main branch using Github actions.</p><h2>Automatic syncing</h2><p>The sync process is quite simple. In Siplicity’s main repository I have a Github workflow that runs daily, checks for the latest commit after the two year embargo, and then merges it to a “siplicity-foss” branch if there are new commits.</p><p>The guts of this workflow are:</p><pre><code>target_commit=$(git rev-list -n 1 --before=&quot;729 days ago&quot; main)
+latest_merged=$(git rev-parse siplicity-foss)
+if [[ -z &quot;$target_commit&quot; || &quot;$target_commit&quot; == &quot;$latest_merged&quot; ]]; then 
+  echo &quot;Nothing to commit today&quot;
+  exit 0  
+fi
+git checkout siplicity-foss
+git merge $target_commit
+</code></pre><p>There’s another Github workflow that runs daily in the siplicity-foss repository. It is even simpler and just tries to merge the “siplicity-foss” branch into its own main branch.</p><p>You can view this workflow here: <a href="https://github.com/sipli-city/siplicity-foss/blob/main/.github/workflows/fetch-changes.yml">https://github.com/sipli-city/siplicity-foss/blob/main/.github/workflows/fetch-changes.yml</a>.</p><h2>Rationale for all of this</h2><p>I’ve gone with this licensing model for a few reasons:</p><ul><li>to try to find a balance between compensation for me, and freedom for you</li><li>to incentivise me to keep making Siplicity better, and not rent seek on legacy code</li><li>to reduce the ‘bus factor’ … in the worst case, it’s all going to be open source in a couple of years.</li></ul><p>It’s also a bit of an experiment. To see if this sort of model is viable for sustaining <em>open-ish</em> software for the digital preservation community.</p><p>We’ll see!</p></div>
+	<span><a href="/devlog">Read all devlog entries here</a></span>
+
+	</body>
+</html>
