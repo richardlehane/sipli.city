@@ -10,7 +10,7 @@
 
 # Platform
 
-- Cross-platform: signed, packaged builds for Windows, Mac OS and Linux
+- Cross-platform: signed, packaged builds for ~~Windows~~, Mac OS and Linux
 - Multilingual support
 
 # Features
@@ -21,17 +21,16 @@
 - Metadata reconciliation: i.e. expect that fields match (e.g. for fixity checking) or satisfy defined criteria (e.g. for bad filename detection)
 - Data entry: formulae
 - Data entry: copy down/ fill column.
-- Unarchiving/ decompression (inc. IMG, ISO, WARC, BAGIT, ZIP) of inputs
+- Unarchiving/ decompression (inc. IMG, ISO, WARC, ~~ZIP, tar.gz, 7z~~) of inputs *Part done: Oct 2026*
 - Archiving/ compression of outputs
-- Checklists/ Recipes/ playbooks - define multistep workflows.
+- ~~Checklists/ Recipes/ playbooks - define multistep workflows.~~ *Done: Sept 2026*
 - Remote backend, local frontend
 - Remote storage connectors for import and export (S3, SharePoint)
 - Metadata extractors (exif)
 - Metadata embedding
 - Thumbnail creation
 - Text extraction
-- Metadata importing (e.g. from CSV)
-- Custom exports using templating language like mustache
+- Metadata importing (e.g. from CSV) *Started: Sept 2026*
 - PII and other classification features
 - Mint persistent identifiers e.g. ARK
 - Document relations: derivations, part of (e.g. thumbnail derivative of file, file extracted from zip)
